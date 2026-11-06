@@ -1,125 +1,137 @@
 # JobHunter
 
-**Buscador de empleo multiusuario, con IA opcional y bajo tu control.** Rastrea ofertas de portales y páginas de empresas, las puntúa contra tu perfil, adapta tu CV a cada una **sin inventar experiencia**, te deja seguir cada postulación y, si tú lo decides, postula por ti.
+Un buscador de empleo de código abierto que trabaja por ti, pero te deja siempre al mando.
 
-`Python · FastAPI · React · TypeScript · SQLite/PostgreSQL · Scrapling · Playwright · Pulumi`
+Rastrea ofertas en portales y en las páginas de empleo de las empresas, las puntúa según tu perfil, adapta tu CV a cada una **sin inventar nada** y te ayuda a seguir cada postulación. Y si quieres, puede postular por ti. Si no quieres, no lo hace: viene apagado.
+
+`Python · FastAPI · React · TypeScript · SQLite o PostgreSQL · Scrapling · Playwright · Pulumi`
 
 ---
 
-## Qué hace
+## Para qué sirve
 
-- **Encuentra.** Busca en portales de empleo (LinkedIn, Computrabajo, Magneto, Indeed y otros) y en las páginas de carreras de empresas (Greenhouse, Lever, Ashby, Workable...). Tú puedes añadir tus propias páginas de empleo y buscar **cualquier rol**, no solo el de tu CV.
-- **Entiende tu CV.** Sube un PDF o DOCX (incluido el formato Harvard) y el sistema arma tu perfil. Tú lo revisas.
-- **Puntúa.** Evalúa cada oferta de 1 a 5 contra tu perfil: habilidades, nivel, ubicación, idioma, salario y frescura, con vetos y razones explicadas.
-- **Adapta el CV.** Genera un CV para cada oferta (Harvard por defecto, PDF o DOCX) que pasa filtros ATS. **Nada que no tengas entra al CV**: las habilidades que faltan solo se incluyen si tú las confirmas.
-- **Filtra y ordena.** Por modalidad (remoto, híbrido, presencial), salario, especialidad, contrato, país, antigüedad, y por las más recientes o mejor encaje.
-- **Muestra dónde.** Un mapamundi con las ofertas por ciudad o país, hecho en SVG, sin servicios externos.
-- **Sigue tus postulaciones.** Tablero por etapas, entrevistas, resultados, y un **análisis de por qué no avanzan** (con evidencia y nivel de confianza) y qué cambiar.
-- **Trabaja solo.** Búsquedas programadas con filtros, que corren 24 horas en un trabajador, con avisos en la app, webhook, ntfy, Telegram o correo.
-- **Postula por ti, si lo activas.** Ver [Auto-postulación](#auto-postulación-opcional).
+**Encontrar ofertas.** Busca en portales como LinkedIn, Computrabajo, Magneto o Indeed, y en las páginas de carreras de empresas que usan Greenhouse, Lever, Ashby, Workable y similares. Puedes añadir tus propias páginas de empleo y buscar el rol que quieras, aunque no sea el de tu CV.
 
-## Principios
+**Entender tu CV.** Subes un PDF o un DOCX (el formato Harvard incluido) y arma tu perfil. Tú lo revisas y lo corriges.
 
-1. **Tú decides.** Por defecto el sistema no envía nada. La auto-postulación es opcional, arranca apagada y en modo ensayo.
-2. **No inventa.** Ni en el CV ni en los formularios. Ante algo que no sabe, se detiene y te lo deja a ti.
-3. **Funciona con o sin IA.** Tres modos: modelo local (Ollama, CPU), API externa con tu consentimiento, o **sin IA** (reglas, léxico y CV extractivo).
-4. **Tus datos son tuyos.** Cada usuario ve solo lo suyo; exportación y borrado de cuenta (RGPD); los secretos se guardan cifrados.
+**Decirte cuáles valen la pena.** Cada oferta recibe una nota de 1 a 5 según tus habilidades, tu nivel, la ubicación, el idioma, el salario y qué tan reciente es, con las razones a la vista.
 
-## Inicio rápido (local)
+**Adaptar tu CV a cada oferta.** Genera un CV distinto para cada puesto (Harvard por defecto, en PDF o DOCX) que pasa los filtros ATS. Solo usa lo que de verdad tienes: si la oferta pide algo que no figura en tu perfil, entra al CV únicamente si tú confirmas que lo tienes.
 
-Requisitos: Python 3.12+, Node 20+ y Chromium para Playwright.
+**Filtrar y ordenar a tu gusto.** Por modalidad (remoto, híbrido o presencial), salario, especialidad, tipo de contrato, país y antigüedad. Puedes ordenar por mejor encaje, por las más recientes o por mayor salario.
+
+**Ver dónde están.** Un mapamundi con las ofertas por ciudad o país. Es un SVG propio, así que no depende de ningún servicio externo.
+
+**Seguir tus postulaciones.** Un tablero por etapas, con entrevistas y resultados. Además analiza por qué algunas no avanzan y te propone qué cambiar, siempre con la evidencia a la vista y avisando de que son hipótesis, porque las empresas casi nunca explican un rechazo.
+
+**Trabajar mientras duermes.** Puedes programar búsquedas con tus filtros. Un trabajador las ejecuta solo y te avisa por la app, por webhook, ntfy, Telegram o correo.
+
+## Cómo piensa el proyecto
+
+1. **Tú decides.** Por defecto no envía nada. La auto-postulación es opcional, empieza apagada y en modo ensayo.
+2. **No inventa.** Ni en tu CV ni en los formularios. Si no sabe algo, se detiene y te lo deja a ti.
+3. **Sirve con o sin IA.** Puede usar un modelo local, una API externa (solo si das tu consentimiento) o ninguna IA, con reglas y un CV extractivo.
+4. **Tus datos son tuyos.** Cada usuario ve solo lo suyo, puedes exportarlo o borrarlo todo, y los secretos se guardan cifrados.
+
+## Para probarlo en tu máquina
+
+Necesitas Python 3.12 o superior, Node 20 o superior y Chromium para Playwright.
 
 ```bash
 # Backend
 cd backend
 python -m venv .venv && . .venv/bin/activate
 pip install -e ".[dev]"
-playwright install chromium          # lo usa la auto-postulación y el modo stealth
+playwright install chromium     # lo usan la auto-postulación y el modo stealth
 
 # Frontend
 cd ../frontend && npm install
 
-# Todo junto: API (8000) + trabajador + front (5173)
+# Y todo junto: API (8000), trabajador y frontend (5173)
 cd .. && ./dev.sh
 ```
 
-Abre <http://localhost:5173>, pulsa **Registrarse** (correo y contraseña de 10+ caracteres) y sube tu CV. `dev.sh` arranca sin IA (`JH_AI_MODE=none`) y guarda la base en `backend/jobhunter.db`; cambia esas variables antes del comando si quieres otra cosa. La API queda documentada en <http://localhost:8000/docs>.
+Abre <http://localhost:5173>, pulsa **Registrarse** (correo y una contraseña de 10 caracteres o más) y sube tu CV. `dev.sh` arranca sin IA y guarda los datos en `backend/jobhunter.db`; si prefieres otra configuración, pon las variables antes del comando. La documentación de la API queda en <http://localhost:8000/docs>.
 
-Tests y calidad:
+Para correr las pruebas:
 
 ```bash
-cd backend  && pytest -q && ruff check app tests            # ~850 tests
+cd backend  && pytest -q && ruff check app tests      # unos 850 tests
 cd frontend && npm run typecheck && npm run lint && npm test && npm run build
 ```
 
-## Modos de IA
+## Con IA o sin ella
 
-| `JH_AI_MODE` | Qué es | Datos a terceros |
+| `JH_AI_MODE` | Qué significa | ¿Salen datos a terceros? |
 |---|---|---|
-| `none` | Sin IA: reglas, léxico, TF-IDF y CV extractivo (viñetas reales elegidas por relevancia) | No |
-| `local` | Modelo pequeño en tu máquina con Ollama (CPU, sin GPU) | No |
-| `api` | API externa (OpenAI-compatible o Anthropic), con consentimiento del usuario, presupuesto diario y contacto redactado | **Sí** |
+| `none` | Sin IA: reglas, léxico y un CV extractivo que elige tus viñetas reales según la oferta | No |
+| `local` | Un modelo pequeño en tu propio equipo con Ollama, en CPU y sin GPU | No |
+| `api` | Una API externa (compatible con OpenAI o Anthropic), con tu consentimiento, un presupuesto diario y tus datos de contacto tapados | **Sí** |
 
-El sistema funciona en los tres. Cada respuesta indica si usó IA y, si no, por qué. Detalle en [docs/OPERACION.md](docs/OPERACION.md#modos-de-ia-jh_ai_mode).
+Todo funciona en los tres modos, y cada respuesta te dice si usó IA y, si no, por qué. Hay más detalle en [docs/OPERACION.md](docs/OPERACION.md#modos-de-ia-jh_ai_mode).
 
 ## Auto-postulación (opcional)
 
-Se activa en la pantalla **Auto-postulación**:
+Se activa en la pantalla **Auto-postulación**, con tres modos:
 
 | Modo | Qué hace |
 |---|---|
-| Apagada | Nada. Es el valor por defecto. |
-| Con tu aprobación | Prepara la postulación y te avisa. Envía solo cuando pulsas «Aprobar». |
-| Automática | Postula sola, apenas aparece una oferta que cumple tus reglas (con búsquedas programadas). |
+| Apagada | Nada. Es lo que viene por defecto. |
+| Con tu aprobación | Prepara la postulación y te avisa. Solo se envía cuando tú pulsas «Aprobar». |
+| Automática | Postula sola apenas aparece una oferta que cumple tus reglas (junto con las búsquedas programadas). |
 
-Tú eliges el encaje mínimo, si solo las «que valen la pena», el tope diario, **tu CV general o uno hecho para cada puesto**, la carta opcional, el modo por tipo de portal y una pausa de emergencia. Empieza en **modo ensayo**: rellena el formulario sin enviarlo, hasta que lo desactivas a propósito. Cada intento queda registrado y lo enviado entra al seguimiento con el CV exacto.
+Tú pones las reglas: el encaje mínimo, si solo las que «valen la pena», cuántas como máximo al día, si usa **tu CV general o uno hecho para cada puesto**, si incluye carta, qué libertad tiene en cada tipo de portal y una pausa de emergencia. Arranca en **modo ensayo**: rellena el formulario pero no lo envía, hasta que lo desactivas tú. Cada intento queda registrado, y lo que se envía pasa al seguimiento con el CV exacto que se usó.
 
-**Límites honestos**
+Conviene saber esto antes de usarla:
 
-- Solo portales con **formulario público** (Greenhouse, Lever, Ashby, Workable, Teamtailor, Recruitee, BambooHR y páginas de empleo genéricas). LinkedIn, Computrabajo, Indeed y similares exigen iniciar sesión: ahí postulas tú.
-- No inventa respuestas, no resuelve captchas y no marca casillas de marketing. Si el formulario pide algo que no sabe, se detiene y te lista lo que falta.
-- Está probada contra **formularios locales reales con navegador real**, no contra los portales de producción, cuyo HTML cambia. Es normal que algunos queden en «Termina tú».
-- Automatizar postulaciones puede ir contra los términos de algunos portales y arriesgar bloqueos de cuenta. Empieza en ensayo, luego con aprobación, y usa un tope bajo.
+- Solo funciona con portales de **formulario público**: Greenhouse, Lever, Ashby, Workable, Teamtailor, Recruitee, BambooHR y páginas de empleo genéricas. LinkedIn, Computrabajo, Indeed y otros piden iniciar sesión, así que ahí postulas tú.
+- No inventa respuestas, no resuelve captchas y no marca casillas de marketing. Si el formulario pide algo que no sabe, se detiene y te dice qué falta.
+- La probé contra **formularios reales en local, con navegador real**, pero no contra los portales de producción, que cambian su HTML cuando quieren. Es normal que algunos queden en «Termina tú».
+- Automatizar postulaciones puede ir contra los términos de algunos portales y hacer que te bloqueen la cuenta. Empieza en ensayo, sigue con aprobación y usa un tope bajo.
 
-## Arquitectura
+## Cómo está armado
 
 ```
- navegador ──> React (Vite) ──/api──> FastAPI ──> SQLite / PostgreSQL
+ navegador ──> React (Vite) ──/api──> FastAPI ──> SQLite o PostgreSQL
                                         │  └── cola de trabajos (tabla workitem)
                                         │
-   worker (python -m app.worker) ───────┘  búsquedas programadas · tareas lentas · avisos · auto-postulación
-        └── Scrapling (scraping) + Playwright (formularios) + Ollama / API (opcional)
+   trabajador (python -m app.worker) ───┘  búsquedas programadas · tareas lentas · avisos · auto-postulación
+        └── Scrapling (scraping) + Playwright (formularios) + Ollama o una API (opcional)
 ```
 
 ```
-backend/    FastAPI + SQLModel + Alembic: scouting, perfil, CV, evaluación, seguimiento, auto-postulación
-frontend/   React + TypeScript + TanStack Query: lógica y visual separadas (la regla la hace cumplir ESLint)
-infra/      Pulumi (Python): backend, trabajador, Ollama, Postgres, Caddy con TLS y copias de seguridad
-docs/       OPERACION.md, OpenAPI exportado y decisiones de arquitectura (ADR)
+backend/    FastAPI, SQLModel y Alembic: búsqueda, perfil, CV, evaluación, seguimiento y auto-postulación
+frontend/   React y TypeScript: la lógica y lo visual van separados, y ESLint lo hace cumplir
+infra/      Pulumi: backend, trabajador, Ollama, Postgres, Caddy con TLS y copias de seguridad
+docs/       guía de operación, contrato OpenAPI y decisiones de arquitectura
 ```
 
-El front se genera a partir del contrato OpenAPI (`docs/openapi.json`), así que un cambio de la API que lo rompa lo detecta el compilador.
+El front se genera a partir del contrato OpenAPI (`docs/openapi.json`), así que si un cambio en la API rompe algo, el compilador te lo dice.
 
-## Documentación
+## Más documentación
 
-- [docs/OPERACION.md](docs/OPERACION.md): despliegue en VPS con Pulumi, variables de entorno, trabajador, avisos, copias de seguridad y límites conocidos.
-- [docs/adr/](docs/adr): decisiones de arquitectura, cortas.
-- [frontend/README.md](frontend/README.md): capas del front y comandos.
-- [docs/openapi.json](docs/openapi.json): contrato de la API.
+- [docs/OPERACION.md](docs/OPERACION.md): desplegar en un VPS con Pulumi, variables de entorno, trabajador, avisos, copias de seguridad y límites conocidos.
+- [docs/adr/](docs/adr): las decisiones de arquitectura, cortas.
+- [frontend/README.md](frontend/README.md): las capas del front y sus comandos.
+- [docs/openapi.json](docs/openapi.json): el contrato de la API.
 
-## Estado y límites
+## Estado actual
 
-Es un proyecto en construcción. Lo que conviene saber:
+El proyecto está en construcción. Esto es lo que conviene tener presente:
 
-- **Portales reales:** los scrapers dependen del HTML de cada sitio y cambian. Revisa qué fuentes responden en cada búsqueda (el panel lo muestra en vivo).
-- **Lectura de CV:** validada con CV propios y en formato Harvard; los CV de dos columnas con diseño complejo aún pueden leerse mal. Revisa siempre el perfil detectado.
-- **Puntuación:** es determinista y explicable, pero no está calibrada para todos los perfiles; ajusta el encaje mínimo según tus resultados.
-- **Una instancia de API:** los límites de tasa y la cola del LLM viven en memoria. La cola de trabajos sí es persistente. Más en [docs/OPERACION.md](docs/OPERACION.md#decisiones-y-límites).
+- **Portales reales.** Los scrapers dependen del HTML de cada sitio, que cambia. En cada búsqueda verás en vivo qué fuentes responden y cuáles no.
+- **Lectura del CV.** La probé con CV propios y en formato Harvard. Los de dos columnas con un diseño complicado todavía pueden leerse mal, así que revisa siempre el perfil que detecta.
+- **Puntuación.** Es determinista y se puede explicar, pero no está calibrada para todos los perfiles. Ajusta el encaje mínimo según lo que veas.
+- **Una sola instancia de API.** Los límites de tasa y la cola del LLM viven en memoria. La cola de trabajos, en cambio, sí es persistente. Hay más en [docs/OPERACION.md](docs/OPERACION.md#decisiones-y-límites).
 
-## Uso responsable
+## Úsalo con responsabilidad
 
-Este proyecto automatiza tareas sobre sitios de terceros. Respeta los términos de uso y el `robots.txt` de cada portal, usa límites de frecuencia razonables y no lo emplees para postular con datos falsos. Eres responsable de lo que envías.
+Este proyecto automatiza tareas sobre sitios de terceros. Respeta los términos de uso y el `robots.txt` de cada portal, mantén una frecuencia razonable y no postules con datos falsos. Lo que envías es responsabilidad tuya.
+
+## Contribuir
+
+JobHunter es de código abierto y toda ayuda es bienvenida: scrapers para nuevos portales, mejoras en la lectura de CV, traducciones, pruebas y documentación. Abre un issue para contar lo que encontraste o lo que te gustaría, o manda un pull request. Antes de enviarlo, corre las pruebas y el lint (los comandos están arriba).
 
 ## Licencia
 
-Por definir. Añade un archivo `LICENSE` antes de publicar el repositorio.
+Código abierto bajo la licencia [MIT](LICENSE).
