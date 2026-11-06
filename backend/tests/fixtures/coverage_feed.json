@@ -1,0 +1,82 @@
+[
+ {
+  "url": "https://www.workingnomads.com/job/go/9001/",
+  "title": "Analista SOC Nivel 2",
+  "company_name": "Acme",
+  "location": "Colombia",
+  "tags": "",
+  "category_name": "Security",
+  "description": "<p>Monitoreo SIEM 24x7.</p>",
+  "pub_date": "2026-11-01T10:00:00-05:00"
+ },
+ {
+  "url": "https://www.workingnomads.com/job/go/9002/",
+  "title": "SOC Analyst - Blue Team",
+  "company_name": "Acme",
+  "location": "Colombia",
+  "tags": "",
+  "category_name": "Security",
+  "description": "<p>Triage of alerts in a 24x7 security operations center.</p>",
+  "pub_date": "2026-11-01T10:00:00-05:00"
+ },
+ {
+  "url": "https://www.workingnomads.com/job/go/9003/",
+  "title": "Analista de Ciberseguridad",
+  "company_name": "Acme",
+  "location": "Colombia",
+  "tags": "",
+  "category_name": "Security",
+  "description": "<p>Gestion de vulnerabilidades y respuesta a incidentes.</p>",
+  "pub_date": "2026-11-01T10:00:00-05:00"
+ },
+ {
+  "url": "https://www.workingnomads.com/job/go/9004/",
+  "title": "Security Analyst",
+  "company_name": "Acme",
+  "location": "Colombia",
+  "tags": "",
+  "category_name": "Security",
+  "description": "<p>Own detection engineering and incident handling.</p>",
+  "pub_date": "2026-11-01T10:00:00-05:00"
+ },
+ {
+  "url": "https://www.workingnomads.com/job/go/9005/",
+  "title": "Cybersecurity Analyst (Remote)",
+  "company_name": "Acme",
+  "location": "Colombia",
+  "tags": "",
+  "category_name": "Security",
+  "description": "<p>Protect our cloud estate.</p>",
+  "pub_date": "2026-11-01T10:00:00-05:00"
+ },
+ {
+  "url": "https://www.workingnomads.com/job/go/9006/",
+  "title": "Data Analyst",
+  "company_name": "Acme",
+  "location": "Colombia",
+  "tags": "",
+  "category_name": "Data",
+  "description": "<p>Dashboards and SQL.</p>",
+  "pub_date": "2026-11-01T10:00:00-05:00"
+ },
+ {
+  "url": "https://www.workingnomads.com/job/go/9007/",
+  "title": "Enfermera de planta",
+  "company_name": "Acme",
+  "location": "Colombia",
+  "tags": "",
+  "category_name": "Health",
+  "description": "<p>Atencion de pacientes.</p>",
+  "pub_date": "2026-11-01T10:00:00-05:00"
+ },
+ {
+  "url": "https://www.workingnomads.com/job/go/9008/",
+  "title": "Analista de Marketing",
+  "company_name": "Acme",
+  "location": "Colombia",
+  "tags": "",
+  "category_name": "Marketing",
+  "description": "<p>Campañas digitales.</p>",
+  "pub_date": "2026-11-01T10:00:00-05:00"
+ }
+]

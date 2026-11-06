@@ -1,0 +1,484 @@
+{
+ "profile": {
+  "full_name": "Priya Raman",
+  "email": "priya.raman@securemail.com",
+  "phone": "+44 7700 900123",
+  "location": "London, UK",
+  "headline": "SOC Analyst",
+  "summary": "SOC analyst with 5 years of experience in threat detection, incident response and SIEM engineering.",
+  "skills": [
+   {
+    "name": "SIEM",
+    "source": "cv"
+   },
+   {
+    "name": "Splunk",
+    "source": "cv"
+   },
+   {
+    "name": "MITRE ATT&CK",
+    "source": "cv"
+   },
+   {
+    "name": "Incident Response",
+    "source": "cv"
+   },
+   {
+    "name": "Threat Hunting",
+    "source": "cv"
+   },
+   {
+    "name": "CrowdStrike",
+    "source": "cv"
+   },
+   {
+    "name": "Python",
+    "source": "cv"
+   },
+   {
+    "name": "Wireshark",
+    "source": "cv"
+   }
+  ],
+  "experience": [
+   {
+    "company": "Barclays",
+    "title": "SOC Analyst L2",
+    "start": "2021-01",
+    "end": null,
+    "bullets": [
+     "Triaged and escalated 60+ daily alerts in Splunk and CrowdStrike.",
+     "Wrote detection rules mapped to MITRE ATT&CK, increasing coverage by 25%."
+    ]
+   },
+   {
+    "company": "Capgemini",
+    "title": "Security Analyst",
+    "start": "2018-08",
+    "end": "2020-12",
+    "bullets": [
+     "Monitored client networks and handled phishing and malware incidents."
+    ]
+   }
+  ],
+  "education": [
+   {
+    "institution": "University of Leeds",
+    "degree": "BSc Cyber Security",
+    "year": "2018"
+   }
+  ],
+  "languages": [
+   "English (native)",
+   "Hindi (fluent)"
+  ],
+  "certifications": [
+   "CompTIA Security+",
+   "GIAC GCIH"
+  ],
+  "preferences": {
+   "countries": [
+    "CO"
+   ],
+   "regions": [],
+   "languages": [
+    "es",
+    "en"
+   ],
+   "remote": true,
+   "target_roles": [
+    "analista soc"
+   ],
+   "deal_breakers": {
+    "min_salary": null,
+    "salary_currency": "USD",
+    "salary_period": "month",
+    "excluded_companies": [
+     "Auxis"
+    ],
+    "excluded_keywords": [],
+    "excluded_modes": [],
+    "min_level": null,
+    "max_level": null,
+    "required_languages": [],
+    "apply_threshold": 3.8,
+    "consider_threshold": 3.0
+   }
+  }
+ },
+ "preferences": {
+  "target_roles": [
+   "analista soc"
+  ],
+  "countries": [
+   "CO"
+  ],
+  "languages": [
+   "es",
+   "en"
+  ],
+  "remote": true
+ },
+ "jobs": [
+  {
+   "id": 1,
+   "label": 0,
+   "title": "Freelance Copywriter",
+   "company": "Coalition Technologies",
+   "location": "Worldwide",
+   "source": "remotive",
+   "description": "CT Marketing Agency is seeking skilled Freelance Copywriters to write high-quality, SEO-driven content for eCommerce and lead generation websites. This is a freelance, project-based writing role. The ideal candidate has excellent English writing skills, strong research ability, and experience writing content that follows detailed, client-specific guidelines. Projects commonly include category pages, product descriptions, blog posts, SEO landing pages, and website copy. About the Role Our client base is constantly evolving, and writers may create content across a wide range of industries, including: Fashion, including mass-market and luxury brands Skincare and beauty Tech and software Finance and investing Law, including family law, divorce, and product liability Education Home improvement Automobiles and motorcycles Health and wellness Medical and clinical fields Digital marketing SEO, PR, advertising, and marketing Writers with experience in highly specialized industries such as tech, finance, law, health, medical, SEO, PR, advertising, or marketing are strongly encouraged to apply. Responsibilities Write clear, engaging, SEO-friendly content for eCommerce and lead generation websites Create category pages, product descriptions, blog posts, landing pages, and website copy Research client industries, products, services, audiences, and competitors Follow detailed client guidelines and adapt to different brand voices Blend SEO best practices with brand priorities and conversion-focused writing Complete assignments by deadline and communicate professionally with the team Qualifications Excellent English writing, grammar, editing, and proofreading skills 2 to 4 years of professional, non-academic writing experience preferred Strong understanding of SEO writing best practices Ability to research unfamiliar industries and technical topics Ability to write creative, engaging, accurate, and ROI-focused content Portfolio featuring published work preferred Experience in specialized industries strongly preferred Compensation Writers are paid on a per-word basis. Rates are assessed according to our KPI rubric. Initial compensation is up to $0.06 per word, with $0.034 per word being the most typical rate This equals approximately $30 or $17 per 500-word page After 400 live pages, the top rate increases to $0.064 per word, with $0.038 per word being the most typical rate After 800 live pages, the top rate increases to $0.07 per word, with $0.044 per word being the most ",
+   "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306"
+  },
+  {
+   "id": 2,
+   "label": 0,
+   "title": "Full-Stack Developer",
+   "company": "Fluence International, Inc.",
+   "location": "Worldwide",
+   "source": "remotive",
+   "description": "We’re looking for a pragmatic, security-minded Full-Stack Developer to help build and scale Fluence’s B2B products used by clinicians, researchers, and organizations in psychedelic-assisted therapy and mental health. You’ll work closely with and report to our Senior AI & Design Lead to turn product requirements into robust, secure, and well-documented applications, as well as maintain existing ones. What you’ll do Build and maintain full-stack web applications using React and Next.js . Architect reliable, performant backends and APIs; familiarity with AWS (Lambda, ECS/Fargate, API Gateway, RDS/DynamoDB, S3, CloudFront, Cognito, etc.) is important. AWS Bedrock and AWS CloudTrail experience is a plus. Implement secure authentication, authorization, and role-based access for clinician, admin, and other user workflows. Design data models and flows with privacy, auditability, and regulatory considerations in mind. Integrate with internal and external APIs and third-party services used in our B2B stack. Experience with LLM/AI features in production (guardrails, logging, security considerations). Implement logging, monitor performance, and ship production-quality code. Datadog and Sentry experience is a plus. Collaborate directly with the Senior AI & Design Lead for clear ownership, feedback, and iteration. Maintain clear documentation of architecture, decisions, and interfaces for internal teams. (Bonus) Use Convex or similar BaaS / serverless data platforms for rapid product delivery. (Bonus) Build and maintain n8n workflows (webhooks, scheduled jobs, error workflows, credential management, self-hosting) to automate internal operations and connect our product stack. To confirm you’ve read this carefully, include the word “pineapple” somewhere in your email. This is mandatory; applications without this disclosure will not be considered. What we’re looking for 3+ years of experience as a full-stack or frontend-heavy engineer. Strong proficiency in React , Next.js , TypeScript/JavaScript. Hands-on experience with AWS for production workloads. Solid understanding of web security best practices (OWASP, secure storage, encryption in transit/at rest, secrets management). Experience building systems in or adjacent to healthcare, education, or compliance-heavy environments is a plus. Excellent async communication, code ownership, and ability to work with a small, senior-led team. Comfort working from a clear product brief and also proposing improvements proactively. Fam",
+   "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165"
+  },
+  {
+   "id": 3,
+   "label": 0,
+   "title": "Risk Analyst",
+   "company": "Pavago",
+   "location": "",
+   "source": "remoteok",
+   "description": "Risk Analyst / Risk Manager â Remote Enterprise Risk | Compliance | Governance | Financial & Operational Risk Position Type: Full-Time, Remote Working Hours: U.S. Client Business Hours (with flexibility for reporting cycles, audits, and incident response) About the Role At Pavago, weâre hiring on behalf of one of our clients for a Risk Analyst / Risk Manager to identify, assess, monitor, and mitigate financial, operational, compliance, and enterprise risks across the organization. This is a high-impact role where youâll help safeguard the business by developing risk frameworks, analyzing emerging threats, strengthening internal controls, and delivering actionable insights that support strategic decision-making. Youâll work closely with Finance, Operations, Compliance, Legal, IT, and Executive Leadership to ensure the organization remains compliant, resilient, and prepared for evolving business risks. If youâre analytical, detail-oriented, and enjoy translating complex risk data into practical business recommendations, this role is built for you. What Youâll OwnEnterprise Risk Assessment Conduct enterprise-wide risk assessments across: Financial risk Operational risk Compliance risk Market risk Cybersecurity risk Maintain and update: Risk registers Control matrices Risk assessments Remediation trackers Identify emerging risks and prioritize mitigation activities. Partner with business leaders to strengthen proactive risk management practices. Risk Modeling & Analytics Build and maintain quantitative risk models using: SQL Excel Python R SAS Perform: Stress testing Scenario analysis Sensitivity analysis Regression analysis Monte Carlo simulations Value at Risk (VaR) modeling Analyze trends, anomalies, and key risk indicators (KRIs). Deliver data-driven recommendations to leadership. Compliance & Regulatory Oversight Support compliance with applicable frameworks such as: SOX Basel III Dodd-Frank GDPR HIPAA PCI-DSS Industry-specific regulations Prepare quarterly and annual compliance reports. Support internal and external audits. Maintain audit-ready documentation and evidence. Track remediation activities and regulatory deadlines. Internal Controls & Governance Test and evaluate internal controls. Monitor incidents, exceptions, and risk events through Governance, Risk & Compliance (GRC) platforms. Support governance committees with reporting and documentation. Partner with IT and Security teams on: Cyber risk Vendor risk Operational resilience Recommend impro",
+   "url": "https://remoteOK.com/remote-jobs/remote-risk-analyst-pavago-1137548"
+  },
+  {
+   "id": 4,
+   "label": 1,
+   "title": "SaaS Security Engineer",
+   "company": "Economic Impact Catalyst",
+   "location": "Remote",
+   "source": "getonboard",
+   "description": "How You Work Skills and certifications matter, but what determines success here is how you approach the work, especially when the path isn't clearly defined. We're looking for someone who: Investigates without being pointed. You notice gaps and keep digging until you understand a problem, whether or not anyone assigned it. This shows up daily in threat identification, vulnerability review, and incident response. Builds to last. You fix the immediate issue, then document it, automate what repeats, and hand off work so it runs without you. Runbooks and roadmaps are part of doing the job well, not overhead. Moves without waiting. In a remote team, you set your own priorities and make progress without constant direction. In your first 90 days, you'll orient yourself, ask good questions, and get to work. Translates risk for the room. You explain risk clearly to engineers, business owners, and leadership, adjusting to your audience without creating unnecessary alarm. Shares what you know. You cross-train teammates, write documentation others can use, and treat security as a shared responsibility, not a gate you control. Experience and Technical Skills 3+ years of mid-level cybersecurity experience as a security analyst, security engineer, systems engineer, or similar technical security role. Bachelor's degree or equivalent experience in Cybersecurity, Computer Science, IT, or a related field. An advanced, professional, or expert-level security certification is preferred. Hands-on experience administering or managing at least one enterprise security application or platform. Experience leading security projects from planning through implementation, handoff, and continuous improvement. Strong grasp of information security principles and incident investigation techniques, with a practical understanding of threats and risk. Working knowledge of network, application, endpoint, cloud, identity, and systems security architecture. Experience designing and implementing security controls across servers, networks, databases, cloud, and applications. Strong troubleshooting, automation, project management, and written communication skills. Security Platforms and Domain Knowledge Experience securing multi-tenant SaaS platforms: tenant isolation, role-based access control, secure configuration, data protection, threat detection, vulnerability remediation, and incident response. Hands-on experience with tools such as SIEM, EDR/XDR, DLP, IDS/IPS, email security, identity security",
+   "url": "https://www.getonbrd.com/jobs/is-it-security-engineer-economic-impact-catalyst-remote"
+  },
+  {
+   "id": 5,
+   "label": 1,
+   "title": "Analista de Soporte en Ciberseguridad",
+   "company": "Factor IT",
+   "location": "Colombia",
+   "source": "getonboard",
+   "description": "Nos interesa que cuentes con formación técnica y experiencia aplicada en la operación de ciberseguridad. Tecnólogo/a en Sistemas, Telemática o afines, o en Electrónica, Telecomunicaciones o afines. Mínimo 2 años de experiencia desde la obtención del título técnico, tecnológico o profesional en gestión o soporte de ciberseguridad. La experiencia debe acreditarse mediante certificaciones laborales y evidenciar al menos 3 actividades de las siguientes: Monitoreo de eventos o alertas. Registro y atención de incidentes en herramientas de service desk. Análisis y clasificación básica de alertas. Operación de antivirus, EDR, SIEM u otras herramientas de seguridad. Aplicación de controles. Gestión operativa de accesos o bloqueos. Escalamiento de incidentes. Además, valoramos la orientación a la ejecución con criterio, la capacidad de seguir procedimientos, y la comunicación clara para asegurar el escalamiento oportuno y la correcta clasificación. También buscamos responsabilidad, orden en la documentación y disposición para aprender y adaptarte a entornos con tecnologías en evolución. Apoyar la operación de controles y herramientas de seguridad, asegurando el registro y clasificación de alertas e incidentes y su escalamiento oportuno. En la práctica, tu trabajo se centrará en: Monitorear eventos o alertas de seguridad, asegurando visibilidad y seguimiento. Registrar y atender incidentes en herramientas de service desk, manteniendo trazabilidad. Realizar análisis y clasificación básica de alertas. Operar herramientas de seguridad como antivirus, EDR, SIEM u otras plataformas del stack. Aplicar controles definidos para la operación y respuesta. Gestionar de forma operativa accesos o bloqueos cuando el proceso lo requiera. Escalar incidentes de manera oportuna según criterios internos. Buscamos que el flujo de trabajo sea consistente, priorizado y documentado, para sostener la efectividad de la operación de ciberseguridad. Ofrecemos una modalidad de trabajo híbrida desde Medellín, con flexibilidad horaria para un balance saludable entre la vida profesional y personal, adaptándose a las necesidades individuales. FactorIT proporciona un ambiente colaborativo, dinámico y con tecnologías de última generación que facilitan el crecimiento profesional constante y la innovación tecnológica. Nuestro paquete salarial es competitivo y acorde a la experiencia y perfil, complementado con una cultura inclusiva que valora la diversidad, creatividad y el trabajo en equipo. Al unirte",
+   "url": "https://www.getonbrd.com/jobs/analista-de-soporte-en-ciberseguridad-factor-it-medellin"
+  },
+  {
+   "id": 6,
+   "label": 2,
+   "title": "Analista SOC",
+   "company": "E-dea Networks S.A.S",
+   "location": "Bogotá, D.C., Bogotá, D.C., Colombia",
+   "source": "computrabajo",
+   "description": "Para E-dea Networks ninguna idea o proyecto es imposible, somos una de las mejores empresas a nivel de Latinoamérica certificada por Great Place To Work para trabajar, contamos con un excelente clima organizacional, por eso si cumples con los siguientes requisitos no dudes en aplicar: EL candidato(a) deben estar dispuestos a realizar trabajos por turnos, permitir una programación flexible y demostrar habilidades intuitivas de resolución de problemas e investigación. 5X8 El analista SOC debe trabajar en colaboración para monitorear/investigar las alertas de seguridad, seguir los procedimientos de investigación/escalado e interactuar con nuestros clientes según sea necesario. El analista SOC debe estar familiarizados con los principios de seguridad de redes y terminales, amenazas actuales, vulnerabilidades y tendencias de ataques. Debe tener un conocimiento práctico de los principios y marcos de seguridad, como Cyber Kill Chain, MITRE ATT&CK;, etc. El analista SOC debe ser competentes para trabajar a un alto nivel técnico y ser capaces de identificar amenazas y vectores de ataque. Actividades que realiza Supervisar e investigar activamente las alertas de seguridad para detectar actividad maliciosa en nuestros clientes durante su turno en nuestro SOC 5X8 Realizar análisis de Cyber Kill Chain y MITRE ATT&CK; en alertas de seguridad entrantes. Seguir los procedimientos documentados para clasificar y responder adecuadamente a las actividades maliciosas identificadas, como acciones de escalada o reparación. Proporcionar a nuestros clientes investigaciones escritas claras/concisas dentro del sistema de gestión de servicios de la organización. Comunicarse y colaborar con los clientes de la organización a lo largo del ciclo de vida de todas las investigaciones de seguridad escaladas. Contribuir a las operaciones generales de seguridad en todos los clientes de la organización, ya sea a través alarmas escaladas, reuniones periódicas, etc. Participar en reuniones internas, como cambio de turno, reuniones de equipo, etc. para colaborar con sus compañeros de equipo y realizar transferencia de conocimientos. Realizar capacitaciones periódicas para mantenerse informado sobre las últimas tecnologías, metodologías, etc. Mantenerse actualizado sobre las últimas vulnerabilidades, amenazas y ataques en todo el mundo. Sea un miembro del equipo que interactúe regularmente con sus compañeros de turno y colegas. Realizar la documentación relacionada con la gestión de proyectos apli",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-soc-en-bogota-dc-3A218FB23BF54B7E61373E686DCF3405"
+  },
+  {
+   "id": 7,
+   "label": 2,
+   "title": "Analista SOC - Analista seguridad informática",
+   "company": "ITM CONSULTING DE COLOMBIA LTDA",
+   "location": "Cundinamarca, Cota, Colombia",
+   "source": "computrabajo",
+   "description": "Analista SOC – Nivel 1 (Básico) Área: Seguridad de la Información / Ciberseguridad Dependencia: Coordinador o Líder del SOC Ubicación: presencial / híbrido / remoto] Horario: Turnos rotativos 24x7 (según la operación del SOC) 2. Propósito del cargo Monitorear, analizar y dar respuesta inicial a los eventos y alertas de seguridad generados por las herramientas del SOC, contribuyendo a la detección temprana de incidentes y la protección de los activos tecnológicos de la organización. 3. Responsabilidades principales Monitorear continuamente las alertas generadas por herramientas SIEM (Security Information and Event Management). Clasificar, categorizar y priorizar eventos de seguridad. Escalar incidentes según los procedimientos establecidos (hacia niveles superiores o áreas técnicas). Documentar los eventos e incidentes atendidos en las plataformas del SOC. Apoyar en la ejecución de tareas de contención inicial bajo supervisión. Realizar verificaciones básicas de seguridad en endpoints, redes o sistemas afectados. Participar en ejercicios de mejora continua y simulacros de incidentes. Cumplir con los procedimientos y políticas de seguridad de la información de la organización. 4. Formación académica requerida Educación mínima: Tecnólogo o estudiante de últimos semestres en Ingeniería de Sistemas, Electrónica, Telecomunicaciones o carreras afines. Deseable: Certificaciones básicas en ciberseguridad (por ejemplo: CompTIA Security+, EC-Council CSA, Cisco CyberOps Associate, o similares). 5. Experiencia requerida Experiencia mínima: 6 meses a 1 año en roles de soporte técnico, monitoreo de redes, mesa de ayuda o pasantías en seguridad informática. Deseable: Experiencia en el manejo de consolas SIEM (Splunk, QRadar, ArcSight, FORTINET etc.) o herramientas de monitoreo de seguridad. 6. Conocimientos técnicos Fundamentos de redes (TCP/IP, DNS, HTTP, VPN, firewalls). Conocimientos básicos de sistemas operativos Windows y Linux. Conceptos de seguridad perimetral, endpoint y correo electrónico. Manejo básico de herramientas SIEM y de ticketing. Conocimientos básicos de amenazas, malware, phishing y vulnerabilidades comunes. Capacidad para interpretar logs y eventos de seguridad. 7. Competencias blandas Pensamiento analítico y atención al detalle. Capacidad de trabajo bajo presión y en turnos rotativos. Comunicación efectiva y trabajo en equipo. Orientación a resultados y cumplimiento de procedimientos. Proactividad y disposición para aprender. 8. Idiomas Español: Nati",
+   "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-soc-analista-seguridad-informatica-en-cota-631ECB0EE5B3993C61373E686DCF3405"
+  },
+  {
+   "id": 8,
+   "label": 0,
+   "title": "Analista de Facturación y Cartera",
+   "company": "Confidencial",
+   "location": "Bogotá D.C., Bogotá DC, CO",
+   "source": "trabajosdiarios",
+   "description": "Estamos en la búsqueda de un(a) Analista de Facturación y Cartera, responsable de gestionar procesos de facturación, seguimiento de cuentas por cobrar y control de cartera, garantizando la correcta aplicación de pagos y la recuperación oportuna de ingresos. Funciones principales: Elaborar, revisar y emitir facturación de acuerdo con los lineamientos establecidos. Realizar seguimiento y gestión de cobro a clientes. Conciliar pagos y aplicar recaudos en el sistema. Analizar el estado de cartera y generar reportes periódicos. Gestionar acuerdos de pago y control de vencimientos. Apoyar en el cierre contable relacionado con ingresos y cartera. Requisitos: Formación en contabilidad, finanzas, administración o áreas afines. Experiencia en facturación y gestión de cartera. Manejo de herramientas ofimáticas (especialmente Excel). Conocimiento en sistemas contables o ERP. Habilidades analíticas, organización y comunicación efectiva. Si cumples con el perfil, ¡postúlate y sé parte de nuestro equipo!",
+   "url": "https://co.trabajosdiarios.com/trabajo/3102260/analista-de-facturacion-y-cartera-en-bogota-dc"
+  },
+  {
+   "id": 9,
+   "label": 0,
+   "title": "Analista de Datos",
+   "company": "Grupo CAF tecnología SAS",
+   "location": "Bogota D.C., Bogotá DC, CO",
+   "source": "trabajosdiarios",
+   "description": "Buscamos una persona con un perfil altamente analítico, técnico y orientado a los números para unirse a nuestro equipo bajo la modalidad de prestación de servicios. Con experiencia práctica demostrable analizando datos de costos y mercado para modelar, simular y establecer el precio óptimo de nuestras propuestas económicas en procesos de licitación públicos y privados. Actividades y entregables principales: Desarrollar modelos analíticos y financieros para simular diferentes escenarios de precios y evaluar su impacto en el margen de utilidad. Analizar los históricos de ofertas económicas de los competidores en licitaciones pasadas para identificar sus estrategias de descuento y patrones de precios. Estructurar y consolidar las matrices de costos (materiales, mano de obra, logística, riesgos) que fundamentan la propuesta económica. Realizar análisis de sensibilidad para determinar los límites mínimos de precio y evitar pérdidas en la ejecución del contrato. Diseñar tableros de control (dashboards) que permitan visualizar la rentabilidad estimada de cada licitación. Presentar recomendaciones basadas en datos a la gerencia sobre cuál es la oferta económica con mayor probabilidad de éxito en cada proceso. Perfil requerido Experiencia: Mínimo 3 años de experiencia comprobable en análisis de datos. Es indispensable que al menos parte de esa trayectoria incluya (Estrategia de Precios), análisis de costos, analítica comercial, presupuestos o estructuración financiera de proyectos. Habilidades técnicas indispensables: Manejo avanzado de Excel (modelos financieros, análisis de escenarios, tablas dinámicas avanzadas). Manejo de ERP Modalidad: Hibrida Salario: 2.000.000",
+   "url": "https://co.trabajosdiarios.com/trabajo/3091988/analista-de-datos-en-bogota-dc"
+  },
+  {
+   "id": 10,
+   "label": 0,
+   "title": "Supervisor Logísticas",
+   "company": "Confidencial",
+   "location": "Bogotá, D.C., Bogotá D.C., CO",
+   "source": "magneto",
+   "description": "Cargo: Supervisor Logístico CEDIMisión del Cargo:Garantizar el funcionamiento eficiente, seguro y organizado del Centro de Distribución (CEDI), supervisando los procesos de recepción, almacenamiento, control de inventarios y despacho de mercancías. Liderar al equipo operativo, asegurar el cumplimiento de los procedimientos establecidos y realizar seguimiento a indicadores de gestión (KPIs), utilizando herramientas de análisis de datos para optimizar los procesos, mejorar la productividad y garantizar la calidad de la operación logística. ¿Qué buscamos?Formación: Técnico, tecnólogo o profesional Ingeniería Industrial, Administración de Empresas o carreras afines. Experiencia: Mínimo 3 años de experiencia en supervisión de bodegas, almacenes o centros de distribución (CEDI), liderando equipos operativos y gestionando procesos de recepción, almacenamiento, control de inventarios, picking, packing y despachos.Habilidades y mindset: buscamos personas que tenganLiderazgoPensamiento analíticoOrientación a resultadosResolución de problemasComunicación asertivaTrabajo en equipoMejora continuaFunciones principales:Supervisar los procesos de recepción, almacenamiento, alistamiento y despacho de mercancías en el Centro de Distribución (CEDI).Liderar, coordinar y hacer seguimiento al equipo operativo de bodega, garantizando el cumplimiento de las actividades diarias.Gestionar y controlar los inventarios, asegurando su exactitud mediante conteos cíclicos y seguimiento de existencias.Supervisar las actividades de picking, packing, surtido y distribución de mercancías.Construir, analizar y realizar seguimiento a indicadores de gestión (KPIs) relacionados con productividad, inventarios y tiempos de despacho.Elaborar informes de gestión y analizar datos operativos mediante Excel avanzado, Google Sheets y herramientas de inteligencia artificial.Implementar y supervisar procedimientos operativos, identificando oportunidades de mejora continua.Coordinar con las áreas de compras, transporte y comercial para garantizar la eficiencia de la operación logística.Garantizar el cumplimiento de las normas de seguridad y salud en el trabajo y el adecuado uso de los equipos de bodega.Promover la productividad, el orden y el cumplimiento de los estándares de calidad y servicio del Centro de Distribución.",
+   "url": "https://www.magneto365.com/co/empleos/supervisor-logisticas-1124133"
+  },
+  {
+   "id": 11,
+   "label": 0,
+   "title": "Agente De Ventas De Freelance - Tuluá Colombia",
+   "company": "Confidencial",
+   "location": "Tuluá, Valle del Cauca, CO",
+   "source": "magneto",
+   "description": "¿Sueñas con tener tu propia operación de viajes?Construye tu camino en la industria de los viajes.Buscamos personas con una mentalidad emprendedora, iniciativa y un verdadero deseo de crecer dentro de la industria de viajes; personas que entienden el valor del esfuerzo, la perseverancia y el crecimiento a través de su trabajo.Quiénes somosUna plataforma global que busca impulsarte para convertirte en gerente de viajes. Te ofrecemos todas las herramientas, apoyo y tecnología de primera para que puedas iniciar y hacerte crecer en el área de los viajes.Tienes habilidades de servicio al cliente y te gustaría convertirlas en una oportunidad para monetizar mientras construyes tu camino. Si la respuesta es sí, aquí te explico cómo.Lo que harás en este rol:Atenderás solicitudes de vuelos y paquetes turísticos.Aconsejarás a los clientes que encuentren las mejores opciones.Usarás plataformas de reservas y ventas.Construirás y desarrollarás un portafolio de clientes, creando relaciones sólidas y duraderas.Tu disciplina será tu principal motor de crecimiento.Para construir algo propio dentro de la industria de viajes, necesitarás disponibilidad total durante el primer mes, aproximadamente 8 horas al día, para completar nuestro programa de capacitación gratuito e intensivo:1 semana de estudio1 semana de entrenamiento teórico en clases virtuales2 semanas de entrenamiento prácticoDurante este proceso, te acompañaremos paso a paso para que desarrolles las habilidades, herramientas y autonomía necesarias para convertirte en un gestor de viajes.La capacitación, el acompañamiento y las herramientas que necesitarás para comenzar no tienen costo.CondicionesModalidad de trabajo bajo contrato freelance, sin relación contractual.No hay un salario base: las ganancias corresponden solo a una compensación variable, se paga mensualmente en atraso y depende directamente de tu desempeño en ventas.¿Cuánto podrías ganar?La compensación se paga mensualmente en atraso, lo que significa que desde tu segundo mes empezarás a ver tu esfuerzo reflejado en ganancias reales y en dólares. Durante los primeros 6 meses, nuestros gerentes típicamente generan entre $200 y $400 al mes; sin embargo, con perseverancia y dedicación, muchos logran ingresos de hasta 700 USD al mes.Crees que tienes lo que se necesita para construir tu propio negocio dentro de la industria de viajes.Da el primer paso, atrévete a desafiarte y comienza tu camino como Gerente de Viajes.",
+   "url": "https://www.magneto365.com/co/empleos/agente-de-ventas-de-freelance-tulua-colombia-1124130"
+  },
+  {
+   "id": 12,
+   "label": 0,
+   "title": "gestor comercial",
+   "company": "ADTECO",
+   "location": "Bogotá D.C., Bogotá, CO",
+   "source": "elempleo",
+   "description": "¡ESTAMOS CONTRATANDO: GESTOR COMERCIAL (B2B - TECNOLOGÍA)! ?? ¿Te apasionan las ventas consultivas, la tecnología y el cumplimiento de metas? ¡Esta oportunidad es para ti! Buscamos un profesional proactivo con capacidad para generar nuevos negocios y desarrollar relaciones a largo plazo en el sector corporativo. ?? Cargo: Gestor Comercial ?? Ubicación: Bogotá (Modalidad presencial + visitas comerciales) ?? Horario: Lunes a viernes ?? Compensación: $2.000.000 COP básico + Prestaciones de ley + Comisiones SIN TECHO por resultados. ?? ¿Cuál será tu reto? * Prospectar y captar permanentemente nuevos clientes empresariales (B2B). * Comercializar soluciones de venta y renta de equipos tecnológicos (impresoras, computadores, pantallas inteligentes y periféricos). * Gestionar el ciclo comercial completo: desde la identificación de necesidades, elaboración de propuestas y negociación, hasta el cierre y seguimiento de contratos. * Desarrollar venta cruzada y fidelizar las cuentas asignadas. ?? ¿Qué buscamos? * Formación: Estudiante de carrera profesional, técnico o tecnólogo en Mercadeo, Ventas, Administración, Negocios, Tecnología, Sistemas o afines. * Experiencia: Mínimo 1 año de experiencia comprobable en ventas B2B y/o renta de equipos tecnológicos e informáticos. * Conocimientos clave: Venta consultiva, prospección comercial, elaboración de cotizaciones, negociación, cierre y manejo de herramientas de Office/CRM. * Competencias: Orientación al logro, alta capacidad de autogestión, persistencia, excelentes habilidades de comunicación y pasión por la tecnología. ?? ¿Cómo aplicar? Si cumples con el perfil y quieres llevar tus ingresos al siguiente nivel, postúlate enviando tu CV a [Insertar Correo Electrónico] con el asunto \"Gestor Comercial - Bogotá\" o déjanos un mensaje directo. ¡Ayúdanos a compartir esta oportunidad con tu red! ?? #EmpleoBogota #TrabajoSiHay #GestorComercial #VentasB2B #Tecnologia #Comercial #Convocatoria",
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/gestor-comercial-1886788332"
+  },
+  {
+   "id": 13,
+   "label": 2,
+   "title": "Cyber Security Analyst",
+   "company": "World Business Lenders, LLC",
+   "location": "Bogotá, Cundinamarca",
+   "source": "indeed",
+   "description": "Basic PowerShell or Python skills and familiarity with vulnerability scanning or SIEM tools. Security certifications or related training; experience supporting…",
+   "url": "https://co.indeed.com/viewjob?jk=49d1c47401008d38"
+  },
+  {
+   "id": 14,
+   "label": 2,
+   "title": "Analista de Ciberseguridad (Incidentes)",
+   "company": "Deloitte",
+   "location": "Bogotá, Cundinamarca",
+   "source": "indeed",
+   "description": "Tendrás la oportunidad de desarrollar conocimientos en ciberseguridad , capacidades de detección de amenazas, participación en proyectos de Machine Learning,…",
+   "url": "https://co.indeed.com/viewjob?jk=fce1476db3ed35bd"
+  },
+  {
+   "id": 15,
+   "label": 2,
+   "title": "Security Operations Center Analyst",
+   "company": "Auxis",
+   "location": "Bogotá, Capital District, Colombia",
+   "source": "linkedin",
+   "description": "Sr. Security Operations Center (SOC) Analyst Grant Thornton’s Cyber Fusion Centre (CFC) is actively seeking a technically strong and motivated Sr. SOC Analyst to join our follow-the-sun security operations team. Operating in a \"tierless\" SOC model, you will have end-to-end ownership of the security operations lifecycle—from initial alert review and triage through investigation, containment, and continuous improvement. What You Will Do End-to-End Incident Ownership: Manage the full incident lifecycle, including real-time monitoring, triage, evidence review, response coordination, and closure. Advanced Threat Detection: Utilize CrowdStrike Falcon Next-Gen SIEM to analyze first- and third-party detections, correlate events, and execute query-based analysis. Malware & Traffic Analysis: Perform static/dynamic analysis on malware samples and PCAPs to extract network Indicators of Compromise (IOCs). Incident Response & Remediation: Execute Cybersecurity Incident Response Plans, support containment/eradication efforts, and collaborate with IT resolver, IAM, and infrastructure teams. Threat Hunting & SOC Improvement: Identify vulnerabilities and control weaknesses, validate detections, and recommend logic improvements to SOC runbooks and correlation rules. What You Bring Experience: 2+ years in security operations, SOC monitoring, SIEM/EDR, incident response, or a related cybersecurity role (MDR/MSSP or enterprise environment preferred). Technical Proficiency: Strong hands-on experience with CrowdStrike Falcon Next-Gen SIEM/EDR and case management platforms like ServiceNow. Familiarity with SOAR orchestration automation. Analytical Skills: Deep understanding of the MITRE ATT&CK framework, incident response lifecycles, and root cause analysis. Ability to make calm, structured decisions under pressure. Education: Bachelor’s degree in Computer Science, Cybersecurity, Information Security, or equivalent practical operations experience. Certifications (Preferred): CrowdStrike Certified SIEM Analyst (CCSA), CompTIA CySA+, or similar SOC/Forensics certifications. Ready to own the full security lifecycle in a modern, tierless SOC? Apply today to join our Cyber Fusion Centre.",
+   "url": "https://www.linkedin.com/jobs/view/4481239473"
+  },
+  {
+   "id": 16,
+   "label": 2,
+   "title": "Agente de SOC 7 *24 ( Analista de ciberseguridad))",
+   "company": "Unisys",
+   "location": "Bogota, D.C., Capital District, Colombia",
+   "source": "linkedin",
+   "description": "What Success Looks Like In This Role Formación Académica Profesional en Ingeniería de Sistemas, Ingeniería Informática, Ingeniería de Telecomunicaciones, Ciberseguridad o carreras afines. Deseable certificaciones relacionadas con ciberseguridad (Security+, SC-200, CEH, CySA+, entre otras). Experiencia Mínimo 2 a 5 años de experiencia en Seguridad de la Información, Centros de Operaciones de Seguridad (SOC) o monitoreo de eventos de ciberseguridad. Experiencia trabajando en entornos de Data Center y operaciones de seguridad. Experiencia en monitoreo, análisis e investigación de alertas de seguridad. Participación en procesos de respuesta a incidentes de seguridad. Responsabilidades Principales Monitorear de manera continua la infraestructura tecnológica y los eventos de seguridad desde el SOC. Analizar, clasificar y gestionar alertas de ciberseguridad generadas por diferentes herramientas de monitoreo. Identificar, investigar y escalar incidentes de seguridad de acuerdo con los procedimientos establecidos. Ejecutar actividades de Threat Hunting para la identificación proactiva de amenazas. Analizar indicadores de compromiso (IOC) y patrones de comportamiento sospechoso. Documentar incidentes, hallazgos y actividades realizadas durante la atención de eventos. Colaborar con equipos de infraestructura, redes y seguridad para la contención y remediación de incidentes. Generar reportes operativos y métricas relacionadas con la gestión de eventos de seguridad. Asegurar el cumplimiento de los procedimientos y controles de seguridad establecidos por la organización. You will be successful in this role if you have: Conocimientos Técnicos Requeridos Ciberseguridad Conceptos fundamentales de ciberseguridad. Gestión y respuesta a incidentes. Análisis de amenazas y vulnerabilidades. Threat Hunting. Indicadores de compromiso (IOC). Framework MITRE ATT&CK. Seguridad en redes, servidores y sistemas operativos. Herramientas de Seguridad Experiencia en el uso y administración de herramientas como: SIEM (Microsoft Sentinel, Splunk, QRadar, ArcSight o similares). Darktrace. EDR/XDR (Microsoft Defender, CrowdStrike, SentinelOne o similares). IDS/IPS. Firewalls de nueva generación. Plataformas de análisis de logs y correlación de eventos. Herramientas de monitoreo y gestión de incidentes. Conocimientos Adicionales Sistemas operativos Windows y Linux. Redes TCP/IP. DNS, DHCP, VPN y protocolos de seguridad. Administración básica de servidores y entornos corporativos. Gestión de ti",
+   "url": "https://www.linkedin.com/jobs/view/4473983771"
+  },
+  {
+   "id": 17,
+   "label": 0,
+   "title": "Analista Sección Administración De Portafolio",
+   "company": "Bancolombia",
+   "location": "Etipani, COL, CO",
+   "source": "successfactors:bancolombia",
+   "description": "Ubicación: 📍 Medellín. En Bancolombia promovemos el desarrollo sostenible para lograr el bienestar de todos. Más que un empleo, buscamos que el talento pueda conectar, disfrutar y desarrollarse en un entorno diverso 🌍. ¿Cuál será tu reto? Ejecutaras y propondrás mejoras en las funciones del proceso asociado a su rol, de acuerdo con los procesos, estándares, manuales, metodologías y políticas definidas en su área; con el fin de contribuir al logro de las metas y objetivos que desde su misión contribuyen al negocio financiero del Grupo Bancolombia. Conocerás sus procesos, herramientas, sistema de información, metodologías y políticas, con el fin de afianzar sus habilidades y cumplir con la promesa de servicio Llevar un control y seguimiento de sus actividades y resultados, con el fin de dar a conocer su participación y contribución en el logro de objetivos Mantendrás a la vanguardia con las mejores prácticas y cambios que pueda proponer en la búsqueda de hacer mejor las cosas y mejorar los resultados de cara a los retos que día a día le puede representar la oferta de su servicio. Generaras los informes, métricas y análisis sobre su proceso, para que las partes interesadas conozcan los comportamientos del servicio y en equipo puedan establecer mejoras continuas. Optimizaras los recursos que la Organización le suministra, identificar nuevas necesidades y proponer cambios transformacionales en aras de facilitar y contribuir a incrementar los resultados a favor de la Organización Atendieras los requerimientos internos y externos que correspondan a los procesos que atiende, manteniendo y evidenciando la calidad y oportunidad definida en los acuerdos de servicios. Cumplirás con la cultura organizacional, el plan de formación establecido tanto general como particular de sus procesos, las políticas de seguridad y riestos, reglamento interno y todo lo que esté contemplado en aras de mantener la correcta y sana conducta de los empleados en la Organización. ¿Qué te hará exitoso/a en el rol? Profesional en contaduría. Conocimientos en: Experiencia de 3 a 5 años en contabilidad. Gestión contable de activos. Conocimiento y aplicación de normas NIIF. Manejo de reportería y análisis de información. Power BI. Habilidades: Análisis y atención al detalle. Pensamiento analítico. Organización y planeación. Orientación al resultado. Capacidad para interpretar información financiera. Comunicación efectiva. Trabajo en equipo. Proactividad. Gestión del tiempo. ¿Qué te ofrecemos? Al ",
+   "url": "https://empleo.grupobancolombia.com/bancolombia/job/Etipani-Analista-Secci%C3%B3n-Administraci%C3%B3n-De-Portafolio-COL/1446572200/"
+  },
+  {
+   "id": 18,
+   "label": 1,
+   "title": "Analista I (Senior) Hacking Línea De Conocimiento Ciberfraude",
+   "company": "Bancolombia",
+   "location": "Etipani, COL, CO",
+   "source": "successfactors:bancolombia",
+   "description": "Ubicación: 📍 Colombia En Bancolombia promovemos el desarrollo sostenible para lograr el bienestar de todos. Más que un empleo, buscamos que el talento pueda conectar, disfrutar y desarrollarse en un entorno diverso 🌍. ¿Cuál será tu reto? Diseñaras, desarrollaras e implementaras las Pruebas de Seguridad, Ethical Hacking, Pentesting y ejercicios de Red Team y Purple Team en Colombia y Países sobre los sistemas de información on-premises y cloud, descubriendo de forma proactiva ataques avanzados, vulnerabilidades y las diferentes amenazas que puedan impactar nuestra tecnología, procesos o personas; minimizando la materialización de riesgos cibernéticos al recomendar mejoras y soluciones en los controles de ciberseguridad, los sistemas de información, los procesos y el desarrollo de cultura en las personas; para preveer y proteger a la Organización frente a los posibles ataques cibernéticos. Investigaras, analizaras y utilizaras permanentemente nuevas técnicas avanzadas de ataques de manera controlada, evaluando constantemente la posibilidad de ocurrencia de un ataque real en la Organización, el posible impacto y el nivel de exposición que se representen para el Grupo Bancolombia; de forma que se alerte y articule una postura preventiva de seguridad. Desarrollar y ejecutar pruebas de ciberseguridad, en el momento que se requiera desbordar, en conjunto con el proveedor validando el estricto cumplimiento de los tiempos, asesorar y sumistrar las evidencias en las pruebas y hacer entrega de las vulnerabilidades encontradas para que se haga corrección y mitigación de los hallazgos. Diseñaras las pruebas de seguridad acordes a las necesidades y requerimientos del Grupo Bancolombia, teniendo como objetivos los activos críticos de información, manteniendo un nivel de seguridad adecuado en los sistemas de información y con el objetivo de cumplir con las exigencias de los entes regulatorios. Asesoraras y apoyaras a los diferentes equipos en el Grupo Bancolombia, con las recomendaciones y control de las vulnerabilidades encontradas en las pruebas de seguridad para que se logre la adecuada remediación de las mismas. Generaras procesos, procedimientos, guías y manuales que simplifiquen y optimicen la administración de los servicios de Ethical Hacking y Pentesting en el Grupo Bancolombia, con los cuales se tenga un mejor entendimiento, una mayor oportunidad y automatización en la atención de incidencias que puedan afectar la seguridad de los sistemas de información. Diseñar",
+   "url": "https://empleo.grupobancolombia.com/bancolombia/job/Etipani-Analista-I-%28Senior%29-Hacking-L%C3%ADnea-De-Conocimiento-Ciberfraude-COL/1447270100/"
+  },
+  {
+   "id": 19,
+   "label": 1,
+   "title": "Ingeniero de Seguridad Cloud",
+   "company": "MercadoLibre",
+   "location": "",
+   "source": "careers:mercadolibre",
+   "description": "Logistics Operations See Opportunities Argentina English Back Position ID 128759 Ingeniero de Seguridad Cloud Apply now Technology Medellín,Colombia ¡Haz historia en la democratización del comercio y de los servicios financieros, transformando la vida de millones de personas en América Latina con Mercado Libre! Construye servicios y automatizaciones seguras que mejoren la protección de las plataformas cloud y de contenedores, generando un impacto directo en la capacidad de los equipos para integrar y mantener controles de seguridad en sus soluciones. Desafíos: Diseñar, desarrollar y mantener servicios y automatizaciones con Go para soluciones de seguridad cloud, integrando APIs REST y buenas prácticas de desarrollo seguro. Desarrollar y operar soluciones en Linux con Bash, contenedores y Kubernetes sobre AWS o GCP, automatizando controles y mejorando la seguridad de las plataformas. Colaborar con equipos de desarrollo y plataforma para integrar controles de seguridad y gestionar vulnerabilidades en entornos cloud y de contenedores, utilizando Git para el trabajo colaborativo y la revisión de código. Utilizar herramientas de inteligencia artificial y modelos de lenguaje para apoyar el desarrollo, las pruebas, la documentación, la creación de agentes y otras automatizaciones necesarias. Experiencia y conocimientos: Aprender con agilidad en base a desafíos, potenciándote con tecnología y GenAI. Apasionarse por salir de la zona de confort, dar el máximo, superar los propios límites y emprender en un ambiente sano, alegre y divertido. Dominar el desarrollo con Go y APIs REST, trabajar con Linux y Bash, y aplicar buenas prácticas de desarrollo seguro. Construir y operar soluciones con contenedores y Kubernetes en AWS o GCP, utilizando Git para colaborar y revisar código. Utilizar modelos de lenguaje y herramientas de inteligencia artificial en el desarrollo, las pruebas, la documentación y la automatización; se valorarán conocimientos de Python o JavaScript, ciberseguridad cloud, certificaciones de AWS o GCP e inglés intermedio. Conoce más sobre nuestra cultura y negocio en nuestro Career Site ( https://careers-meli.mercadolibre.com/ ). ¡Lo mejor está llegando! Trabajo híbrido - Colombia. Similar jobs Supervisor de Automação - Mercado Envios Logistics On-site +2 Logistics On-site Sudeste, Brazil See more Senior Sotware Engineer Technology On-site +2 Technology On-site Buenos Aires, Argentina See more Analista Senior de Expansão Comercial — Marketplace Marketplac",
+   "url": "https://careers-meli.mercadolibre.com/en/positions?id=45346216"
+  },
+  {
+   "id": 20,
+   "label": 0,
+   "title": "Senior Business Analyst",
+   "company": "Nubank",
+   "location": "Ciudad de México",
+   "source": "ashby:nubank",
+   "description": "ABOUT NU\nNu serves more than 140 million customers, guided by a mission to fight complexity and empower people. The company has been leading an industry transformation through innovative products and human-centered services.\nProprietary technology and data at scale power Nu’s digital platform, built to promote financial access, advancement, and transparency. Its business model thrives on customer love and lower costs, feeding a flywheel of growth and profitability.\nVisit our Institutional Page https://www.nu.com/2026-en\nBusiness Analysts at Nubank\nAs a company at the forefront of the financial revolution in Brazil, Nubank has experienced exponential growth since its inception. To keep your growth path healthy, numerous critical decisions constantly need to be made. Business Analysts are fundamental in the decision process because they must not only be able to deal with large amounts of information and data, but also always think of ways to improve our clients' experience.\nIt is BA's responsibility to structure the data, analyze it and use the results to test different solutions with the aim of improving Nubank's efficiency.\nWe are looking for people who are independent and who are not afraid to take the initiative to identify and solve problems that are not necessarily obvious.\nYou can read more about it in our blog https://building.nubank.com.br and get some insights into how we work.\nAs a Business Analyst, you’re expected to:\n- Do a lot of investigative work, focused on deciding which data makes the most sense to use in which situation. If you don't have the data, it's your job to think about what tests can be done or how to extract the information you need to answer your questions;\n- Support your team in making data-based decisions by monitoring analysis and decisions, ensuring the flow of projects and making the process of taking risks comfortable despite the uncertainties;\n- Learning how to work with a large volume of data to build a solid foundation for decision making with calculated risks - even knowing that not all the answers are in the data and/or that not all the data you would like is available; Use tools like SQL, Python, Databricks and Scala - taught during your first weeks with us - for data extraction;\n- Understand our products and interactions with other areas;\n- Take advantage of opportunities to grow and learn from a well-prepared and highly qualified team;\n- Opportunity to work in a complex, dynamic and diverse environment, participati",
+   "url": "https://jobs.ashbyhq.com/nubank/693fd9ab-4d48-49c5-8cf8-22acd92d6e1b"
+  },
+  {
+   "id": 21,
+   "label": 0,
+   "title": "Lead Business Analyst",
+   "company": "Nubank",
+   "location": "São Paulo",
+   "source": "ashby:nubank",
+   "description": "ABOUT NU\nNu serves more than 140 million customers, guided by a mission to fight complexity and empower people. The company has been leading an industry transformation through innovative products and human-centered services.\nProprietary technology and data at scale power Nu’s digital platform, built to promote financial access, advancement, and transparency. Its business model thrives on customer love and lower costs, feeding a flywheel of growth and profitability.\nVisit our Institutional Page https://www.nu.com/2026-en\nBusiness Analysts at Nubank\nAs a company at the forefront of the financial revolution in Brazil, Nubank has experienced exponential growth since its inception. To keep your growth path healthy, numerous critical decisions constantly need to be made. Business Analysts are fundamental in the decision process because they must not only be able to deal with large amounts of information and data, but also always think of ways to improve our clients' experience.\nIt is BA's responsibility to structure the data, analyze it and use the results to test different solutions with the aim of improving Nubank's efficiency.\nWe are looking for people who are independent and who are not afraid to take the initiative to identify and solve problems that are not necessarily obvious.\nYou can read more about it in our blog https://building.nubank.com.br and get some insights into how we work.\nAs a Business Analyst, you’re expected to:\n- Do a lot of investigative work, focused on deciding which data makes the most sense to use in which situation. If you don't have the data, it's your job to think about what tests can be done or how to extract the information you need to answer your questions;\n- Support your team in making data-based decisions by monitoring analysis and decisions, ensuring the flow of projects and making the process of taking risks comfortable despite the uncertainties;\n- Learning how to work with a large volume of data to build a solid foundation for decision making with calculated risks - even knowing that not all the answers are in the data and/or that not all the data you would like is available;Use tools like SQL, Python and Scala - taught during your first weeks with us - for data extraction;\n- Understand our products and interactions with other areas;\n- Take advantage of opportunities to grow and learn from a well-prepared and highly qualified team;\n- Opportunity to work in a complex, dynamic and diverse environment, participating in project",
+   "url": "https://jobs.ashbyhq.com/nubank/fdca5cfd-894e-4691-b03f-507593eb995d"
+  },
+  {
+   "id": 22,
+   "label": 0,
+   "title": "Lead Business Analyst (Operations)",
+   "company": "Addi",
+   "location": "LatAm",
+   "source": "ashby:addi",
+   "description": "ABOUT ADDI\nWe are a leading financial platform, building the future of payments, shopping, and banking—a world where consumers and merchants can transact effortlessly and grow together. Today, we serve over 3.6 million customers and partner with more than 55,000 merchants, making Addi Colombia’s fastest-growing marketplace.\nWith a state-of-the-art, technology-first approach, we provide banking solutions (deposits, payments, unsecured credit) and commerce services (e-commerce, marketing), bridging the financial gap for millions and redefining how people experience financial freedom. As the country’s leading Buy Now, Pay Later provider, we have secured regulatory approval to operate as a bank, unlocking even greater opportunities for our customers. In the past year, we have also achieved profitability, reinforcing the strength of our business model and our ability to scale sustainably.\nOur mission has earned the trust of world-class investors, including Andreessen Horowitz, Architect Capital, GIC, Goldman Sachs, Greycroft, Monashees, Notable Capital, Quona Capital, Union Square Ventures, Victory Park Capital, and more, who back our vision for the future. With their support, we are not just growing—we are transforming Latin America’s financial ecosystem and shaping the next generation to shop, pay, and bank in Colombia.\nBut what truly sets us apart is how we build. We are a conscious company, driven by deep experience in scaling technology, services and products, and we live by our values https://co.addi.com/trabaja-con-nosotros#:~:text=%E2%80%A2%20We%20are%20owners,dentro%20del%20equipo. every day.\nABOUT THE ROLE\nThis is where you come in. Below, you’ll find what this role is all about—the impact you’ll drive, the challenges you’ll tackle, and what it takes to thrive at Addi. If you’re ready to be part of something big, keep reading.\nWHAT’S THE MISSION YOU’LL DRIVE\nLead Addi’s Capital Markets Analytics & Reporting function by taking end-to-end ownership of covenant monitoring, debt and cash forecasting, and pre-launch funding viability assessments for new products and credit facilities. Elevate operational precision by scaling a high-performing two-person analyst team and embedding AI-driven automation into reporting workflows, acting as an independent, risk-mitigating counterpart to CMO Servicing as Addi expands its funding infrastructure.\nWHAT YOU WILL DO\n- Achieve 100% timely, accurate sign-offs on servicing reports and covenant compliance across all acti",
+   "url": "https://jobs.ashbyhq.com/addi/b3b0f097-8961-4001-b8ba-0baacda32bb7"
+  },
+  {
+   "id": 23,
+   "label": 0,
+   "title": "Quality & Continuous Improvement Analyst",
+   "company": "Addi",
+   "location": "Bogotá",
+   "source": "ashby:addi",
+   "description": "ABOUT ADDI\nWe are a leading financial platform, building the future of payments, shopping, and banking—a world where consumers and merchants can transact effortlessly and grow together. Today, we serve over 3.6 million customers and partner with more than 55,000 merchants, making Addi Colombia’s fastest-growing marketplace.\nWith a state-of-the-art, technology-first approach, we provide banking solutions (deposits, payments, unsecured credit) and commerce services (e-commerce, marketing), bridging the financial gap for millions and redefining how people experience financial freedom. As the country’s leading Buy Now, Pay Later provider, we have secured regulatory approval to operate as a bank, unlocking even greater opportunities for our customers. In the past year, we have also achieved profitability, reinforcing the strength of our business model and our ability to scale sustainably.\nOur mission has earned the trust of world-class investors, including Andreessen Horowitz, Architect Capital, GIC, Goldman Sachs, Greycroft, Monashees, Notable Capital, Quona Capital, Union Square Ventures, Victory Park Capital, and more, who back our vision for the future. With their support, we are not just growing—we are transforming Latin America’s financial ecosystem and shaping the next generation to shop, pay, and bank in Colombia.\nBut what truly sets us apart is how we build. We are a conscious company, driven by deep experience in scaling technology, services and products, and we live by our values https://co.addi.com/trabaja-con-nosotros#:~:text=%E2%80%A2%20We%20are%20owners,dentro%20del%20equipo. every day.\nABOUT THE ROLE\nDrive operational excellence by analyzing, providing feedback, and ensuring compliance with quality standards within the Collections team. This role's core purpose is to optimize the overall performance of the team, identify best practices, and improve the user experience through data-driven insights and continuous process improvement, ultimately enhancing the efficiency and effectiveness of debt recovery.\nWHAT’S THE MISSION YOU’LL DRIVE\nEnsure the implementation of a best-in-class quality framework for the Collections team, improving recovery rates and operational efficiency while maintaining a customer-centric approach. Build and lead a high-performance continuous improvement engine that proactively identifies and eliminates process friction, improves agent productivity, and instills a culture of data-driven process discipline.\nWHAT YOU WILL DO\n- ",
+   "url": "https://jobs.ashbyhq.com/addi/93a91948-7393-4922-8a9e-4c406a2f4511"
+  },
+  {
+   "id": 24,
+   "label": 0,
+   "title": "Market Associate",
+   "company": "Despegar",
+   "location": "Tuxtla Gutierrez - Chiapas",
+   "source": "lever:despegar",
+   "description": "Somos Despegar, parte del ecosistema de Prosus, y hace más de 25 años revolucionamos la forma de viajar en América Latina ✈️. Construimos tecnología que transforma experiencias y conecta a millones de personas con sus sueños de viaje. Buscamos talento que piense en 10x, actúe con autonomía y genere impacto real. Si te apasiona innovar, aprender rápido y construir en equipo, este lugar es para ti El Market Associate es el punto de entrada al track de Market Management y tiene ownership real sobre una cartera de hoteles. La expectativa es evolucionar hacia trusted advisor: entender el negocio del partner, la dinámica del destino y las palancas de Despegar para transformar información en acciones que hagan crecer la cuenta. No es un rol administrativo de seguimiento. Requiere lectura de datos, negociación, visitas, ejecución comercial y disciplina de CRM. Nos encontramos en la búsqueda de Account Strategists que esten residiendo en: Ciudad de México Pacífico: Los Cabos / Vallarta. Monterrey Guadalajara Cancún",
+   "url": "https://jobs.lever.co/despegar/7546a4a6-06fd-4eb5-96cd-403798f1a4dc"
+  },
+  {
+   "id": 25,
+   "label": 0,
+   "title": "Legal Analyst",
+   "company": "Despegar",
+   "location": "Bogota",
+   "source": "lever:despegar",
+   "description": "Somos Despegar, parte del ecosistema de Prosus, y hace más de 25 años revolucionamos la forma de viajar en América Latina ✈️. Construimos tecnología que transforma experiencias y conecta a millones de personas con sus sueños de viaje. Buscamos talento que piense en 10x, actúe con autonomía y genere impacto real. Si te apasiona innovar, aprender rápido y construir en equipo, este lugar es para ti",
+   "url": "https://jobs.lever.co/despegar/9632cc7e-2956-4567-a642-9b1becbd57fa"
+  },
+  {
+   "id": 26,
+   "label": 0,
+   "title": "[Job-31838] Senior Data Analyst (Data Quality & Reporting), Brazil",
+   "company": "CI&T",
+   "location": "Brazil",
+   "source": "lever:ciandt",
+   "description": "At CI&T, we help large enterprises transform the potential of AI into real business impact with AI Deployment, AI-native execution, and tech-integrated business solutions. With 30 years of experience in technological transformation, we accelerate innovation with expertise in Agentic SDLC, Application modernization, Data & AI, Martech and Business strategy. We are 8,000 CI&Ters across more than 25 countries, collaborating to build solutions with real impact. AI is already part of how we work, evolve, and innovate every day. About Us: At CI&T, our rapid growth is fueled by the innovative solutions we create for our global clients. We are seeking a Data Analyst with a focus on data quality and reporting for a large-scale Finance data platform modernization at a major US mortgage lender — making sure the curated data and reports built on the new platform are correct and tie out to trusted Finance benchmarks. Pipeline-level monitoring and CI/CD are owned by the DataOps Engineer; this role is about the data and the numbers, not the pipeline mechanics. Responsibilities: • Define and run data quality checks and reconciliation logic against the curated data layer, comparing results to approved Finance benchmarks and closed accounting periods. • Validate migrated and re-pointed reports and dashboards for parity against their prior legacy-source output, including parallel-run comparisons during cutover — running old and new side by side and confirming they tie out within agreed tolerance. • Profile and investigate data quality issues and reconciliation variances, working with Data Engineering to identify and document root cause. • Build and maintain data quality dashboards/reports in Power BI (or the equivalent BI tool) so quality status and known variances stay visible to Finance and delivery stakeholders on an ongoing basis. • Partner with Finance and business stakeholders to define acceptance criteria and quality thresholds for each reporting deliverable. • Produce the acceptance evidence — reconciliation results, parallel-run comparisons, sign-off packages — required at each delivery gate, including the cutover gate. • Document data quality rules and known issues in a form the client's own team can maintain post-handoff. Requirements: • Solid experience as a data analyst or BI analyst, with strong hands-on SQL for querying, validating, and reconciling data. • Hands-on experience building or validating reports/dashboards in Power BI or a comparable enterprise BI t",
+   "url": "https://jobs.lever.co/ciandt/3fad2ba3-717c-4e6b-a37e-6d4925492c7f"
+  },
+  {
+   "id": 27,
+   "label": 0,
+   "title": "[Job-31996] Senior Business Analyst (Microsoft Dynamics 365 Customer Service) , Brazil",
+   "company": "CI&T",
+   "location": "Brazil",
+   "source": "lever:ciandt",
+   "description": "At CI&T, we help large enterprises transform the potential of AI into real business impact with AI Deployment, AI-native execution, and tech-integrated business solutions. With 30 years of experience in technological transformation, we accelerate innovation with expertise in Agentic SDLC, Application modernization, Data & AI, Martech and Business strategy. We are 8,000 CI&Ters across more than 25 countries, collaborating to build solutions with real impact. AI is already part of how we work, evolve, and innovate every day. Join our team in a pivotal role that combines deep CRM expertise with business acumen. As a Senior Business Analyst, you will engage directly with the client and business partners, leading the analysis and design of Customer Service solutions built on Microsoft Dynamics 365. Your mission is to bridge the gap between business needs and technology capabilities, driving the implementation of end-to-end case management solutions that improve customer service operations. Responsibilities: - Lead requirements gathering and analysis sessions with business partners and customer service stakeholders to define and document case management processes, from initial intake through resolution. - Design and optimize case management workflows in Microsoft Dynamics 365 Customer Service, including case lifecycle configuration, routing rules, queue management, and business process flows. - Translate business requirements into clear functional specifications for case management features such as SLA definitions, entitlements, record creation and update rules, and knowledge base integration. - Collaborate with cross-functional teams — including developers, architects, and product owners — to ensure Dynamics 365 configurations align with business objectives and compliance standards. - Serve as the subject matter expert on case management best practices within Dynamics 365, advising on queue structures, case routing strategies, activity management, and Copilot-assisted case resolution features. - Document business processes, operational manuals, and functional specifications that support standardization, governance, and continuous improvement of the CRM platform. - Participate in and facilitate workshops, sprint ceremonies, and stakeholder reviews, ensuring alignment throughout the project lifecycle. Requirements: - Fluent communication in English to engage effectively with both clients and business stakeholders at all levels. (submit your CV in English). - Prov",
+   "url": "https://jobs.lever.co/ciandt/a7199df4-23bc-41b2-92c6-7287fb80e26c"
+  },
+  {
+   "id": 28,
+   "label": 0,
+   "title": "Growth Analyst",
+   "company": "Cabify",
+   "location": "Bogotá",
+   "source": "greenhouse:cabify",
+   "description": "En Cabify creemos que una nueva forma de movilidad urbana es posible. Un ecosistema que permita tener menos coches privados en las calles, vehículos más sostenibles y rutas más eficientes. Ciudades en las que sus calles estén pensadas por y para las personas, y no para los coches. Productos y servicios que, mediante alternativas de movilidad sostenibles y eficientes, generen valor económico, social y medioambiental. Y no solo es que creamos en ello, sino que trabajamos la magia para hacerlo posible. Si compartes con nosotros el mismo propósito, sigue leyendo porque… ¡Este es tu sitio! ¿Cómo nos ayudarás a cumplir con nuestra misión? Impulsarás el crecimiento de la base de usuarios a través de iniciativas de adquisición basadas en datos. Serás responsable del ciclo completo de cada iniciativa: identificar la oportunidad, proponer la solución, medir sus resultados y definir los siguientes pasos. Analizando el embudo de usuarios para identificar oportunidades y dimensionar su impacto. Proponiendo y priorizando iniciativas de adquisición según su aporte al cumplimiento de los objetivos del área, cada una con una hipótesis clara y un impacto estimado. Definiendo cómo se medirá cada iniciativa antes de lanzarla: grupo de control, métrica principal, indicadores de alerta y criterio de éxito. Haciendo seguimiento a las iniciativas, midiendo su impacto real y proponiendo ajustes o la siguiente iteración. Construyendo dashboards y reportes que permitan hacer seguimiento al desempeño de las iniciativas y faciliten la toma de decisiones basada en datos. Trabajando con diferentes equipos para coordinar la ejecución de las iniciativas y asegurar el crecimiento. ¿Qué buscamos?: 1–2 años de experiencia en análisis de datos, growth, performance marketing o áreas afines, con formación en Ingeniería, Economía, Administración o similares. Dominio sólido de Excel y conocimientos en herramientas de visualización (Tableau, Power BI, etc.). Conocimiento de métricas de adquisición y retención y nociones de experimentación o manejo de proyectos. Pensamiento analítico, atención al detalle y capacidad para traducir datos en recomendaciones claras y medibles, con criterio para interpretar resultados que contradicen la hipótesis inicial. Ganas de aprender, proponer y crecer dentro de un equipo dinámico y enfocado en resultados. ¿Qué ofrecemos? Somos una empresa llena de gente feliz y motivada… ¡y no queremos que eso cambie! Aquí te mostramos algunas razones por las que te encantará for",
+   "url": "https://job-boards.greenhouse.io/cabify/jobs/8654404002"
+  },
+  {
+   "id": 29,
+   "label": 0,
+   "title": "Marketplace Analyst",
+   "company": "Cabify",
+   "location": "Bogotá",
+   "source": "greenhouse:cabify",
+   "description": "Marketplace Analyst ¿Quieres cambiar el mundo? Eso es lo que hacemos en Cabify. Nuestro objetivo es hacer de las ciudades mejores lugares para vivir, mejorando la movilidad de las personas que habitan en ellas. Conectamos a pasajeros y conductores con tan sólo pulsar un botón. Creemos en un futuro donde las ciudades no dependan del coche privado, y aunque aún queda camino por recorrer… queremos que nos acompañes en este viaje 🚗✨ 🎯 Misión del puesto En el equipo de Growth somos responsables de habilitar el crecimiento sostenible del negocio. Para lograrlo: Monitoreamos indicadores clave de rendimiento. Detectamos oportunidades de optimización en la operación. Diseñamos e implementamos estrategias alineadas con los objetivos estratégicos de la compañía. Cómo Marketplace Analyst , tu reto será garantizar que nuestro marketplace genere el máximo valor para pasajeros y conductores, mediante decisiones estratégicas sobre precios, asignación de viajes, incentivos y otras palancas clave para equilibrar oferta y demanda. 🚀 ¿Cómo contribuirás a nuestra misión? Identificación de oportunidades: Analizando datos masivos para detectar tendencias, patrones e insights clave que maximicen el valor del marketplace a corto y largo plazo. Diseño y ejecución de experimentos: Estructurando A/B tests y experimentos simultáneos en el marketplace, dando seguimiento riguroso al estatus de cada iniciativa y evaluando su impacto real. Toma de decisiones basada en ciencia: Evaluando datos para identificar causalidades y correlaciones, asegurando que las decisiones operativas respondan a evidencia sólida y no solo a intuición. Colaboración e impacto: Trabajando junto a equipos de producto, operaciones y stakeholders para transformar análisis en acciones estratégicas de alto impacto. 🧩 Lo que necesitamos de ti Experiencia: 1–2 años en análisis de datos o posiciones cuantitativas afines. Formación: Graduado/a en Ingeniería, Economía, Administración de Empresas, Matemáticas o carreras afines. Obsesión por la data: Altamente organizado/a, orientado/a al detalle y con una curiosidad por entender el \"porqué\" detrás de los números. Metodología de experimentación: Experiencia comprobada diseñando experimentos, midiendo sus resultados y gestionando múltiples hipótesis corriendo al mismo tiempo. Pensamiento analítico avanzado: Habilidad clara para distinguir entre correlación y causalidad al interpretar métricas de negocio. Manejo de SQL/Python/R para análisis de datos y herramientas de visualiz",
+   "url": "https://job-boards.greenhouse.io/cabify/jobs/8734992002"
+  },
+  {
+   "id": 30,
+   "label": 0,
+   "title": "AI Business Operations Analyst - Bogotá (Hybrid)",
+   "company": "Clara",
+   "location": "Bogota D.C. / DC / Colombia",
+   "source": "greenhouse:clara",
+   "description": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation. More than 50,000 leading and fast-growing businesses run on our corporate cards, bill pay, financing and B2B payments, and in 2025 the Financial Times named Clara the region’s fastest-growing company. We’re passionate about helping every company we work with become more effective—and, through that, raising the region’s competitiveness. We’re ~400 people, backed by Notable Capital, Coatue, Kaszek, monashees, DST Global, ICONIQ, General Catalyst and Goldman Sachs, among others. What you'll do We're looking for an AI Business Operations Analyst to join Clara Ops and drive a new chapter of how we run the company. This is not a traditional ops role. You will be the person who spots where humans are doing work that machines could do better — and then builds the systems that make it happen. You will sit at the intersection of strategy, automation, and execution, working across teams to eliminate friction, accelerate decisions, and raise the operational ceiling of Clara. You will report to the Global Head of Operations and partner closely with Product, Sales, Finance, and Engineering. You will own the full loop: identify the opportunity, design the solution, deploy it with AI and automation tooling, and measure the outcome. Map high-friction operational workflows across Clara and prioritize them for AI-augmentation and automation — building a roadmap that compounds in impact over time. Design, deploy, and iterate on AI-powered workflows using tools like Claude Code/Codex, n8n, and other LLM APIs to do things that weren’t possible before and replace manual, repetitive, or error-prone processes. Collaborate with commercial and operational leaders to identify where agent-based or rule-based automation can improve speed, accuracy, or capacity — without adding headcount. Build and maintain operational dashboards in Metabase to surface the KPIs that matter and flag anomalies before they become problems. Partner with Product and Product Marketing on process changes tied to new feature launches, ensuring operational readiness before every release. Serve as the internal expert on AI tooling for operations — evaluating new tools, sharing what works, and building the internal playbook on how Clara uses AI. Identify data gaps and work with Engineering to create the instrumentation or pipelines needed to power better operational decisions. Document processes clearly so t",
+   "url": "https://job-boards.greenhouse.io/clara/jobs/5222085007"
+  },
+  {
+   "id": 31,
+   "label": 0,
+   "title": "AI CRM Analyst - Hybrid",
+   "company": "Clara",
+   "location": "Bogota D.C. / DC / Colombia; Buenos Aires / C / Argentina; Mexico City / CDMX / Mexico; Sao Paulo / SP / Brazil",
+   "source": "greenhouse:clara",
+   "description": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation. More than 50,000 leading and fast-growing businesses run on our corporate cards, bill pay, financing and B2B payments, and in 2025 the Financial Times named Clara the region’s fastest-growing company. We’re passionate about helping every company we work with become more effective—and, through that, raising the region’s competitiveness. We’re ~400 people, backed by Notable Capital, Coatue, Kaszek, monashees, DST Global, ICONIQ, General Catalyst and Goldman Sachs, among others. AI CRM Analyst Mexico City, Sao Paulo, Bogotá, Buenos Aires (Hybrid) What you'll do We're looking for a high-ownership, data-informed AI CRM Analyst with 2+ years of hands-on experience in startup or tech environments to help build, optimize, and scale our customer lifecycle programs across Latin America.. Sitting at the intersection of Growth, Lifecycle Marketing, Data, and Tech, you will own lifecycle initiatives end-to-end — from identifying opportunities and defining audiences to building, launching, measuring, and iterating behavior-triggered interventions. You will use AI and automation to increase the team's speed and scalability while driving activation, product adoption, retention, and business impact across our B2B fintech ecosystem. You will Own multi-channel lifecycle initiatives end-to-end: identify opportunities, define audiences and hypotheses, and build, test, launch, and optimize automated onboarding, activation, adoption, and retention journeys using platforms like Customer.io or HubSpot. Build AI-powered CRM workflows: use AI and automation tools (e.g., n8n, Claude, Make) to automate repetitive operations, accelerate analysis and campaign development, and prototype new lifecycle capabilities that improve team scalability. Design and run lifecycle experiments: develop hypotheses and test audiences, messaging, channels, timing, incentives, and lifecycle interventions to improve customer and business outcomes. Identify lifecycle opportunities through data: analyze customer behavior, product usage, and funnel performance to identify high-potential audiences, adoption gaps, and opportunities to improve activation, retention, and product usage. Maintain data & operational quality: collaborate with Product, Data, and Customer Happiness teams to ensure clean event tracking, error-free campaign setup, and compliant messaging lists. Who you are We're looking for someone",
+   "url": "https://job-boards.greenhouse.io/clara/jobs/5283288007"
+  },
+  {
+   "id": 32,
+   "label": 0,
+   "title": "Field Marketing Data Analyst",
+   "company": "VTEX",
+   "location": "Bucharest",
+   "source": "greenhouse:vtex",
+   "description": "About the Role We are looking for a Field Marketing Data Analyst to own the technical tracking, analysis, and reporting of marketing, sales and PR data across regions. This role is highly data-driven and focused on building reliable dashboards, ensuring data accuracy, and translating complex datasets into actionable insights for leadership. *For this position you are required to attend the Bucharest office 4 days a week (Monday - Thursday), and remote work on Friday. Job Requirements Bachelor’s degree in Data Analytics, Computer Science, Engineering, Marketing Analytics, or a related field. Minimum 4 years of experience in a data analyst, marketing analytics, or business intelligence role with a strong understanding of commerce or B2B SaaS industry Experience with BI tools (e.g., Looker, Tableau, Power BI). Proficient in HubSpot and hands-on experience in marketing automation, data models and marketing platforms (e.g. Zapier, Clay, etc.). Familiarity with AI-powered analytics workflows Hands-on experience with multi-touch attribution in a B2B context. English: Full professional proficiency required. Spanish or Portuguese represent an advantage. Main responsibilities Design, implement, and maintain the tracking frameworks for field marketing, digital marketing, sales and PR initiatives. Ensure correct data flow and integration across systems (CRM, marketing automation, event platforms, sales tools and PR tools). Validate data quality, consistency, and completeness across all reporting sources. Measure ABM programme performance at account level: target account coverage, engagement depth across the buying committee, and progression through the funnel. Analyze performance across campaigns, events, regions, and channels and identify trends, anomalies, and performance drivers. Use AI tools to streamline reporting, automate repetitive analysis, and generate faster, data-driven insights for Sales and Marketing leadership. Other important expectations You are an Entrepreneur and a responsible professional You are proactive and are not afraid to share your thoughts and ideas You have a strong ability to work and collaborate multifunctionally internally and externally; but at the same time you know how to work independently. You have a strong interest for a multicultural environment; About VTEX VTEX (NYSE: VTEX) is the composable and complete commerce platform that delivers more efficiency and less maintenance to organizations seeking to make smarter IT investments a",
+   "url": "https://job-boards.greenhouse.io/vtex/jobs/6138130004"
+  },
+  {
+   "id": 33,
+   "label": 0,
+   "title": "Data Scientist (BESS Performance Engineer)",
+   "company": "Wizeline",
+   "location": "Argentina based Remote",
+   "source": "greenhouse:wizeline",
+   "description": "BESS Performance Engineer We are: Wizeline, a global AI-native technology solutions provider, develops cutting-edge, AI-powered digital products and platforms. We partner with clients to leverage data and AI, accelerating market entry and driving business transformation. As a global community of innovators, we foster a culture of growth, collaboration, and impact. With the right people and the right ideas, there’s no limit to what we can achieve. Are you a fit? We are seeking a BESS Performance Engineer to join the Asset Management team, supporting a growing portfolio of distributed generation projects across the United States. Reporting to the VP of Engineering, this role will lead performance monitoring, analysis, and reporting for standalone Battery Energy Storage Systems (BESS) and solar-plus-storage assets, including AC- and DC-coupled configurations. The ideal candidate combines expertise in battery performance modeling, renewable energy systems, and data analytics to optimize technical performance and commercial efficiency. Working closely with Data Science, Asset Management, Engineering, and Operations & Maintenance (O&M) teams, this individual will develop data-driven insights, automate reporting workflows, and identify opportunities to improve asset reliability, battery life, and energy market performance. Key Responsibilities BESS Performance Monitoring: Lead performance analysis, monitoring, and operational reporting for standalone BESS and paired solar PV + BESS assets across a distributed generation portfolio. KPI Development & Tracking: Develop and monitor key performance indicators, including Round-Trip Efficiency (RTE), State of Health (SOH), State of Charge (SOC), auxiliary power consumption, and system availability. Battery Degradation & Predictive Modeling: Develop degradation models and predictive analytics to forecast battery life, monitor SOH against capacity guarantees, and optimize charging and discharging cycles. Data Analysis & Troubleshooting: Extract, clean, and analyze large-scale SCADA, DAS, telemetry, and discrete-event datasets to identify underperforming assets, diagnose component failures, and recommend corrective actions. Data Integration & Automation: Collaborate with Data Science teams to integrate BESS telemetry into enterprise platforms, optimize data warehousing, and automate internal and external reporting pipelines. Solar-Plus-Storage Performance: Evaluate the technical and operational impacts of transitioning fro",
+   "url": "https://www.wizeline.ai/careers/job?gh_jid=6784731"
+  },
+  {
+   "id": 34,
+   "label": 0,
+   "title": "Salesforce Architect (Financial Services Cloud)",
+   "company": "Wizeline",
+   "location": "Romania based Remote",
+   "source": "greenhouse:wizeline",
+   "description": "We are: Wizeline, a global AI-native technology solutions provider, develops cutting-edge, AI-powered digital products and platforms. We partner with clients to leverage data and AI, accelerating market entry and driving business transformation. As a global community of innovators, we foster a culture of growth, collaboration, and impact. With the right people and the right ideas, there’s no limit to what we can achieve Are you a fit? Sounds awesome, right? Now, let’s make sure you’re a good fit for the role: Key Responsibilities Solution & Architecture Design: Architect end-to-end Salesforce FSC solutions that align with business goals while ensuring long-term application stability, security, and scalability. FSC Data Model Governance: Model and structure key financial objects and complex relationships (Personal/Household Accounts, Account-Account Relations , Financial Account Roles , Transactions , Holdings , Financial Goals , Life Events , and Interaction Summaries ). Technical Leadership & Consulting: Collaborate closely with project managers, Salesforce Administrators, and Developers to set implementation standards and resolve high-level technical challenges. Role Requirements Education: Bachelor’s degree in Computer Science, Software Engineering, or equivalent proven work experience. Salesforce Experience: Extensive background in architecture or senior-level development within Salesforce CRM platforms, with specific domain expertise in Service Cloud and Financial Services Cloud (FSC) . Salesforce Developer Domain Experience Bonus: Prior experience architecting or implementing classic Service Cloud projects within the financial, banking, or insurance sectors (e.g., legacy enterprise setups for banking or insurance institutions) will be highly favorable. Strong familiarity with financial business structures and domain logic built on Service Cloud allows for an immediate, seamless transition into FSC. FSC Functional Mastery: Advanced hands-on knowledge of FSC standard financial objects, relationship mapping, process automation, and business rules setup. Development & Integration Literacy: Solid understanding or proficiency in Apex, Lightning Web Components (LWC), Aura, and Visualforce. Working knowledge of Salesforce APIs (REST/SOAP) for connecting with banking ecosystems. DevOps & Source Control: Hands-on familiarity with SFDX, Git source control (branching strategies), and automated deployment pipelines (e.g., Azure DevOps / Azure Pipelines). Soft Ski",
+   "url": "https://www.wizeline.ai/careers/job?gh_jid=7792216"
+  },
+  {
+   "id": 35,
+   "label": 1,
+   "title": "Principal Information Security Partner",
+   "company": "Thoughtworks",
+   "location": "Singapore, Singapore",
+   "source": "greenhouse:thoughtworks",
+   "description": "We are seeking a dedicated Security Partner to join our team in Singapore, focusing specifically on our growing engagements in the Singapore Public Sector. This is a unique and critical role, designed to strengthen our security posture, deepen our partnerships in the public sector, and ensure successful and secure delivery. You will be a trusted advisor, bridging the gap between technical delivery and the demanding security requirements of these clients. You will actively participate in the leadership teams for our Singapore Public Sector accounts and you will help to ensure appropriate governance of security on these accounts, navigating the special confidentiality needs that public sector work often entails. You will report to the BISO for APAC and provide regular reporting to the Thoughtworks APAC Security Governance Committee. Due to the nature of the projects and specific client security clearance, this role requires the successful candidate to be a Singapore Citizen or PR of Singapore Job responsibilities As a Security Partner for Singapore public sector projects, you will provide expert security guidance and leadership for all Thoughtworks accounts and projects within the Singapore public sector portfolio. Security Governance & Reporting : Take ownership of establishing and driving a comprehensive security governance framework tailored to the needs of Singapore public sector accounts. This includes defining and operationalizing key security metrics, identifying and tracking emerging risks, and ensuring timely and accurate reporting to the BISO and APAC Security Governance Committee. Incident Management : Lead and coordinate the response to security incidents, including containment, eradication, recovery, and post-incident analysis. Ensure timely and accurate communication of security incidents to relevant stakeholders. Risk Management : Identify, assess, and manage information security risks specific to Singapore public sector projects, proactively developing and implementing mitigation strategies. Client Engagement & Partnership : Develop strong relationships with key stakeholders within the Singapore public sector, including security teams and relevant agencies, to understand their evolving security requirements and build trust. Compliance & Audit Support : Ensure adherence to relevant security policies, standards, and regulatory requirements. Support internal and external audits. Technical Consulting : Provide technical security consulting to del",
+   "url": "https://www.thoughtworks.com/careers/jobs/8276050?gh_jid=8276050"
+  },
+  {
+   "id": 36,
+   "label": 0,
+   "title": "Lead Technology Advisory Analyst",
+   "company": "Thoughtworks",
+   "location": "Singapore, Singapore",
+   "source": "greenhouse:thoughtworks",
+   "description": "The Technology Advisory Analyst serves on AI-native advisory teams, empowering clients to navigate the critical junction of strategy and technical execution. Collaborating with senior leadership and technical specialists, you will anchor the delivery process by framing challenges, validating hypotheses, and quantifying trade-offs to produce deliverables that are truly decision-ready for the executive level. By blending top-tier consulting rigor with an AI-native workflow, you enable senior teams to perform with unprecedented speed and depth, ensuring every strategic insight is backed by robust evidence and structural accuracy. This role transcends traditional requirements documentation; you are the engine of execution that translates high-level strategic intent into measurable, high-impact business outcomes. Due to the nature of the projects and specific client security clearance, this role requires the successful candidate to be a Singapore Citizen or PR of Singapore. Job responsibilities You drive research and analysis by performing core advisory and consulting activities including: Industry and market research, Technology landscape assessments, Business process analysis, Data analysis and interpretation, Competitive benchmarking, Opportunity identification. You leverage AI-enabled tools to accelerate research and analysis while maintaining high standards of quality and accuracy. You translate Business Problems into Actionable Insights. You work with clients and engagement teams to understand business objectives and challenges, gather and synthesize qualitative and quantitative information, structure complex problems into manageable workstreams. You identify patterns, risks, opportunities, and trade-offs and develop evidence-based recommendations. You support client engagements by contributing to client-facing advisory work by preparing executive-ready presentations and deliverables & facilitating workshops and discovery sessions. You document business and technology requirements, support strategic assessments and roadmap development and help clients evaluate technology options and transformation opportunities. You apply AI to enhance delivery by using AI responsibly to improve the speed and quality of advisory work by accelerating research and information synthesis and supporting analysis and content development. You develop repeatable prompts and workflows, validate AI-generated outputs for accuracy and relevance and continuously improve how advisory w",
+   "url": "https://www.thoughtworks.com/careers/jobs/8276042?gh_jid=8276042"
+  }
+ ]
+}

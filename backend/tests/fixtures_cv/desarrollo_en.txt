@@ -1,0 +1,31 @@
+Daniel Whitfield
+Senior Backend Engineer
+daniel.whitfield@devmail.io | +1 415 555 0134 | Austin, TX | github.com/dwhitfield
+
+PROFILE
+Backend engineer with 9 years of experience building high-traffic APIs in Python and Go. Strong background in distributed systems, observability and cloud infrastructure.
+
+SKILLS
+Python, Go, FastAPI, PostgreSQL, Redis, Docker, Kubernetes, AWS, Terraform, CI/CD, gRPC, Kafka
+
+WORK EXPERIENCE
+Senior Software Engineer - Stripe
+Apr 2020 - Present
+- Designed a payments reconciliation service processing 4M events per day with Kafka and PostgreSQL.
+- Cut p99 latency by 38% by introducing Redis caching and query tuning.
+- Mentored 6 engineers and led the migration to Kubernetes on AWS.
+
+Software Engineer - Shopify
+Jul 2016 - Mar 2020
+- Built REST and gRPC services in Go for the merchant analytics platform.
+- Automated deployments with Terraform and GitHub Actions, reducing release time from 2 hours to 15 minutes.
+
+EDUCATION
+B.S. Computer Science - University of Texas at Austin (2016)
+
+LANGUAGES
+English (native), Spanish (professional)
+
+CERTIFICATIONS
+AWS Certified Solutions Architect - Associate
+Certified Kubernetes Administrator (CKA)

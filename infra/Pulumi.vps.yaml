@@ -1,0 +1,21 @@
+config:
+  docker:host: ssh://root@TU_IP_VPS
+  jobhunter:domain: jobhunter.example.com        # DNS A/AAAA apuntando al VPS; Caddy obtiene el certificado solo
+  jobhunter:acmeEmail: admin@example.com
+  jobhunter:ollamaThreads: "4"
+  jobhunter:ollamaCpus: "4"
+  jobhunter:ollamaMemoryMb: "9216"
+  jobhunter:backendMemoryMb: "2560"
+  jobhunter:database: sqlite                     # o postgres (+ secreto postgresPassword)
+  # Modo de IA (se propaga a backend y worker): local (Ollama aquí) | api (proveedor externo, sin Ollama) | none (sin IA: NO levanta Ollama
+  # ni descarga modelos; es lo recomendado para un VPS pequeño). El worker 24/7 corre siempre salvo jobhunter:workerEnabled=false.
+  # jobhunter:aiMode: none
+  # jobhunter:workerCpus: "1.5" / workerMemoryMb: 2048 / workerConcurrency: 2   (workerReplicas > 1 exige database: postgres)
+  # Secretos obligatorios (se guardan cifrados en este archivo, nunca en claro):
+  #   pulumi config set --secret jobhunter:jwtSecret "$(openssl rand -base64 48)"
+  #   pulumi config set --secret jobhunter:metricsToken "$(openssl rand -hex 24)"      # opcional
+  # En VPS pequeños usa solo el modelo ligero en ambos roles:
+  # jobhunter:modelWriter: qwen2.5:3b-instruct
+  # Activar el frontend cuando exista su imagen:
+  # jobhunter:frontendImage: ghcr.io/tu-org/jobhunter-web:1.0
+  # Copias fuera del volumen docker (p. ej. disco montado/rsync): jobhunter:backupHostPath: /srv/jobhunter-backups

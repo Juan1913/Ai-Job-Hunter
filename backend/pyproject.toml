@@ -1,0 +1,62 @@
+[project]
+name = "jobhunter"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+  "pydantic>=2.7",
+  "pydantic-settings>=2.3",
+  "sqlmodel>=0.0.21",
+  "httpx>=0.27",
+  "pypdf>=4.2",
+  "python-docx>=1.1",
+  "pdfplumber>=0.11",
+  "reportlab>=4.0",
+  "python-multipart>=0.0.9",
+  "scrapling[fetchers]",
+  "pyjwt>=2.8",
+  "argon2-cffi>=23.1",
+  "alembic>=1.13",
+]
+
+[project.optional-dependencies]
+ocr = ["pytesseract>=0.3"]   # además requiere el binario tesseract-ocr (+ idiomas spa/eng)
+dev = ["pytest>=8", "ruff>=0.5", "pre-commit>=3.7"]
+# Base de datos PostgreSQL opcional (JH_DATABASE_URL=postgresql+psycopg://...)
+postgres = ["psycopg[binary]>=3.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools.packages.find]
+include = ["app*"]   # migrations/, scripts/ y tests/ no son paquetes instalables
+
+[tool.ruff]
+line-length = 140
+target-version = "py310"
+extend-exclude = ["migrations/versions", ".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S102", "S307", "S608"]
+ignore = [
+  "E501",   # líneas largas: el estilo del repo es denso
+  "B008",   # Depends(...) en argumentos es el patrón de FastAPI
+  "B904",   # el repo usa raise HTTPException(...) dentro de except sin "from"
+  "B905",   # zip() sin strict
+  "E702", "E741",   # estilo denso del repo
+  "E711", "E712",   # comparaciones con None/True son expresiones SQLAlchemy
+  "UP007", "UP045",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["E402"]   # conftest fija variables de entorno antes de importar la app
+"tests/test_worker_*.py" = ["F811"]   # la fixture `sim` se importa de test_worker_support y se pide por argumento
+"tests/test_scheduling_*.py" = ["F811"]
+"tests/test_notifications_*.py" = ["F811"]
+"migrations/env.py" = ["E402", "I001"]   # alembic exige configurar antes de importar los modelos
+
+[tool.ruff.lint.isort]
+known-first-party = ["app", "tests"]

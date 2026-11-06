@@ -1,0 +1,7 @@
+name: jobhunter
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: JobHunter - backend + modelo local (Ollama), en local o VPS

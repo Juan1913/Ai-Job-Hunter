@@ -1,0 +1,11 @@
+config:
+  jobhunter:apiPort: "8000"
+  jobhunter:ollamaThreads: "6"
+  jobhunter:ollamaCpus: "6"
+  jobhunter:ollamaMemoryMb: "12288"
+  # jobhunter:aiMode: none   # local (por defecto) | api | none (sin Ollama ni descarga de modelos). El worker 24/7 corre con la API.
+  # Sin jwtSecret el backend corre en modo dev (solo escucha en 127.0.0.1). Para modo prod local:
+  #   pulumi config set --secret jobhunter:jwtSecret "$(openssl rand -base64 48)"
+  # Frontend de ejemplo (nginx) hasta que exista la imagen real: jobhunter:frontendPlaceholder true
+  # Postgres en lugar de SQLite: jobhunter:database postgres  +  --secret jobhunter:postgresPassword
+encryptionsalt: v1:4qAuWUFAXiY=:v1:zaVOoamjcG3FTWPB:ExJ3XWAobDw7qGlCK9gAUtt+FhGBjA==

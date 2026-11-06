@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.db
+*.db-*
+.env
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+infra/venv/
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+.vite/

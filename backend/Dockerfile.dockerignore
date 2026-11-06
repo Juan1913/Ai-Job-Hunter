@@ -1,0 +1,18 @@
+# Se aplica al build con contexto work/ (BuildKit lee <Dockerfile>.dockerignore).
+**
+!Scrapling-main/pyproject.toml
+!Scrapling-main/README.md
+!Scrapling-main/LICENSE
+!Scrapling-main/MANIFEST.in
+!Scrapling-main/scrapling/**
+!jobhunter/backend/pyproject.toml
+!jobhunter/backend/alembic.ini
+!jobhunter/backend/docker-entrypoint.sh
+!jobhunter/backend/app/**
+!jobhunter/backend/migrations/**
+**/__pycache__
+**/*.pyc
+**/*.db
+**/*.db-*
+**/.env
+**/.venv
